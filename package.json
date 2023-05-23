@@ -1,0 +1,30 @@
+{
+  "name": "slim-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    // Shows a list of posts that are marked as draft, not published on live site
+    "drafts": "hugo-extended list drafts",
+    // Build static site, I like to use these wrapper scripts in case there are
+    // extra tasks I want to run at build time
+    "build": "npm run hugo:build",
+    // Start local dev server
+    "start": "npm run hugo:start",
+    // Hugo build step
+    "hugo:build": "hugo-extended -d build --cleanDestinationDir --gc --printPathWarnings --printUnusedTemplates --templateMetricsHints --minify --verbose",
+    // Hugo dev server, we are using port 3001 because later we will run webpack
+    // on port 3000
+    "hugo:start": "hugo-extended -p 3001 server -D --cleanDestinationDir --gc --verbose"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hugo-extended": "^0.111.3"
+  }
+
+  
+}
