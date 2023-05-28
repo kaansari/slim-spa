@@ -3,28 +3,48 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
-    // Shows a list of posts that are marked as draft, not published on live site
     "drafts": "hugo-extended list drafts",
-    // Build static site, I like to use these wrapper scripts in case there are
-    // extra tasks I want to run at build time
+    "start": "concurrently \"npm run webpack:dev\" \"npm run hugo:start\"",
     "build": "npm run hugo:build",
-    // Start local dev server
-    "start": "npm run hugo:start",
-    // Hugo build step
+    "prebuild": "npm run browsers:update && npm run webpack:build",
+    "browsers:update": "npx browserslist@latest --update-db",
     "hugo:build": "hugo-extended -d build --cleanDestinationDir --gc --printPathWarnings --printUnusedTemplates --templateMetricsHints --minify --verbose",
-    // Hugo dev server, we are using port 3001 because later we will run webpack
-    // on port 3000
-    "hugo:start": "hugo-extended -p 3001 server -D --cleanDestinationDir --gc --verbose"
-  },
-
+    "hugo:start": "hugo-extended -p 3001 server -D --cleanDestinationDir --gc --verbose",
+    "webpack:dev": "webpack-dev-server --client-logging warn",
+    "webpack:build": "webpack --env production"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hugo-extended": "^0.111.3"
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/runtime": "^7.21.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "concurrently": "^8.0.1",
+    "css-loader": "^6.7.4",
+    "dotenv": "^16.0.3",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "hugo-extended": "^0.111.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-cli": "^10.1.0",
+    "postcss-loader": "^7.3.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^8.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "yaml-loader": "^0.8.0"
   }
-
-  
 }
