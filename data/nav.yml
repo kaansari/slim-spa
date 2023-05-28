@@ -1,11 +1,11 @@
 - title: Home
   url: /
 
-- title: Another Page
-  url: /another-page
-
 - title: Services
   url: /services
 
 - title: Blog
   url: /blog
+
+- title: Contact Us
+  url: /contact
