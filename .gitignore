@@ -29,3 +29,6 @@ lambda-dist
 
 ## gitkeep
 !**/.gitkeep
+
+#npm
+package-lock.json
