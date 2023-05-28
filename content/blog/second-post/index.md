@@ -2,7 +2,6 @@
 draft: false
 title: 'Second Post'
 description: 'My second post'
-date: '2022-07-29'
 categories:
   - Posts
 tags:
