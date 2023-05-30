@@ -1,0 +1,17 @@
+
+<article>
+   
+    <div class="row">
+        {{ range .Data.Pages }} 
+            {{ partial "products/list/product-list-item.html" . }} 
+        {{ end }}
+    </div>
+    <script>
+    var productVariants = null;
+    </script>
+     <div class="row">
+        <div>
+            {{ partial "products/common/site-main-nav.html" . }} 
+        </div>
+    </div>
+</article>

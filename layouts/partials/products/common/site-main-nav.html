@@ -1,0 +1,11 @@
+
+    <ul>
+        <li >
+            <a  href="{{ "products/" | absURL }}">All</a>
+        </li>
+        {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title | title }}</a>
+        </li>
+        {{ end }}
+    </ul>
