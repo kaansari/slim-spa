@@ -13,7 +13,7 @@
     "hugo:start": "hugo-extended -p 3001 server -D --cleanDestinationDir --gc --verbose",
     "webpack:dev": "webpack-dev-server --client-logging warn",
     "webpack:build": "webpack --env production"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
