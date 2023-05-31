@@ -1,1 +1,7 @@
 @import 'css/global.css';
+
+
+    #map {
+      height: 250px;
+      width: 70%;
+    }

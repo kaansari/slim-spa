@@ -36,3 +36,5 @@
 The Alessa collection features a metal shade that when illuminated provides a beautiful two toned look. Perfect for mounting along your house, on your deck or patio, or as entryway lights. Available in black, green, white and clear glass.
 
 {{<responsive-image filename="img/1.png" alt="A building with large glass windows">}}
+
+----
