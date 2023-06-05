@@ -5,7 +5,7 @@ waitForDom(() => {
   lazyload();
 });
 
-$(function() {
+(function() {
     initializeLazyLoadOfImages();
     $("select").change(function() {
         selectPriceBasedOnVariant();

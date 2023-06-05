@@ -3,7 +3,7 @@ baseURL: 'https://www.slim-spa.com'
 
 # Custom parameters
 params:
-  description: 'My New Blog'
+  description: 'MedSpa & Weight Management'
 
 # Markdown Settings
 markup:
@@ -40,8 +40,8 @@ caches:
 languageCode: 'en-us'
 
 # Site title
-title: 'My New Blog'
-copyright: 'My Name'
+title: 'MedSpa & Weight Management of Chicago'
+copyright: 'Khalid Ansari'
 
 # Build timeout, may need to increase if using a lot of image processing
 timeout: 10m

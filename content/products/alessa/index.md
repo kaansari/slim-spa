@@ -1,12 +1,15 @@
 {
     "title": "Alessa",
+    "description" : "Product description",
+    "brand" : "diesel",
     "date": "2018-05-11T22:35:06+05:30",
     "tags": ["Wall Light", "ambience", "black", "black metal", "contemporary", "cool", "cozy", "edison bulb", "filament bulb", "glass", "green", "indoor", "light", "metal", "MODERN", "round", "rustic", "vintage", "white"],
     "categories": ["Wall Light"],
-    "thumbnailImage": "img/thumnail.png",
-    "actualPrice": null,
-    "comparePrice": null,
-    "inStock": true,
+    "thumbnailImage": "img/thumbnail.png",
+    "actualPrice": "50",
+    "comparePrice": "70",
+    "inStock": "true",
+    "availability": "InStock",
     "options": {
             "Color": ["Chrome", "Green", "White", "Black"],
             "Size" : ["L19 x W24 x H23cms"]
@@ -27,7 +30,7 @@
         {
             "optionCombination" : ["Black", "L19 x W24 x H23cms"],
             "comparePrice": null,
-            "actualPrice": "₹ 1,032.00",
+            "actualPrice": "₹ 1,035.00",
             "inStock": true
         }
     ]

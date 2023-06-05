@@ -1,8 +1,24 @@
-<a  href="{{ .RelPermalink }}" style="color: inherit;">
-    <img src="{{ .Params.thumbnailImage | absURL }}" />
-    <p>
+
+
+
+<ul>
+    <li>
+          <span >
+            {{ partial "responsive-image"
+            (dict
+              "context" .
+              "filename" .Params.thumbnailImage
+              "page" ($.Page.File.Path)
+              "altText" ($.Params.title) 
+            )
+          }}
+        </span>
+</li>
+<a href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
+ 
         <span>{{ .Params.title }}</span>
-        <br/>
+       
+       
         <span>
             {{ if .Params.actualPrice }}
                 {{ $.Scratch.Set "minimumPrice" (.Params.actualPrice | string) }}
@@ -29,5 +45,7 @@
             {{ $.Scratch.Get "minimumPrice" }} 
             {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span>— Sold Out</span> {{ end }}
         </span>
-    </p>
-</a>
+        [Read more...]
+    </a>
+    
+

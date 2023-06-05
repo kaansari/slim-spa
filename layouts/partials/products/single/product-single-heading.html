@@ -1,3 +1,26 @@
+{{ with .Params }}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ .title }}",
+    "description": "{{ .description }}",
+    "brand": "{{ .brand }}",
+    "image": "{{.thumbnailImage }}",
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ .actualPrice }}",
+      "priceCurrency": "USD",
+      "availability": "{{ .availability }}"
+    },
+    "category": {{.categories}},
+    "keywords":{{.tags}}
+      
+    
+    {{/* Add more properties as needed */}}
+  }
+</script>
+  {{ end }}
 <h1>{{ .Title }}</h1>
 <p>
     <span class="product-compare-price"style="text-decoration: line-through">{{ .Params.comparePrice }}</span>
@@ -14,6 +37,19 @@
     </select>
     {{ end }}
 </p>
+<p>
+    {{ range .Params.images }}
+    {{ partial "responsive-image"
+    (dict
+      "context" .
+      "filename" .
+      "altText" "prodct picture"
+      "page" ($.Page.File.Path) 
+    )
+  }}
+    {{ end }}
+</p>
+
 <script>
     var productActualPrice  = {{ .Params.actualPrice }}
     var productComparePrice  = {{ .Params.comparePrice }}
