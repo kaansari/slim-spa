@@ -7,12 +7,7 @@
     "description": "{{ .description }}",
     "brand": "{{ .brand }}",
     "image": "{{.thumbnailImage }}",
-    "offers": {
-      "@type": "Offer",
-      "price": "{{ .actualPrice }}",
-      "priceCurrency": "USD",
-      "availability": "{{ .availability }}"
-    },
+    "offers": {{ .offers}},
     "category": {{.categories}},
     "keywords":{{.tags}}
       

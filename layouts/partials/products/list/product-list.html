@@ -1,11 +1,12 @@
 
 <article>
-   
+   <ul>
     <div class="row">
         {{ range .Data.Pages }} 
             {{ partial "products/list/product-list-item.html" . }} 
         {{ end }}
     </div>
+    </ul>
     
     <script>
     var productVariants = null;

@@ -1,51 +1,70 @@
+{{ with .Params }}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ .title }}",
+    "description": "{{ .description }}",
+    "brand": "{{ .brand }}",
+    "image": "{{.thumbnailImage }}",
+    "offers": {{ .offers}},
+    "category": {{.categories}},
+    "keywords":{{.tags}}
+      
+    
+    {{/* Add more properties as needed */}}
+  }
+</script>
+  {{ end }}
 
 
 
-<ul>
-    <li>
-          <span >
-            {{ partial "responsive-image"
-            (dict
-              "context" .
-              "filename" .Params.thumbnailImage
-              "page" ($.Page.File.Path)
-              "altText" ($.Params.title) 
-            )
-          }}
-        </span>
-</li>
-<a href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
- 
-        <span>{{ .Params.title }}</span>
-       
-       
-        <span>
-            {{ if .Params.actualPrice }}
+    <a href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
+        <li>
+
+
+            <span>{{ .Params.title }}</span>
+
+
+            <span>
+                {{ if .Params.actualPrice }}
                 {{ $.Scratch.Set "minimumPrice" (.Params.actualPrice | string) }}
-            {{ else }}
-                {{ $.Scratch.Set "minimumPrice" "999999999999999"}}                 
-            {{ end }}
-            {{ if .Params.inStock }}
+                {{ else }}
+                {{ $.Scratch.Set "minimumPrice" "999999999999999"}}
+                {{ end }}
+                {{ if .Params.inStock }}
                 {{ $.Scratch.Set "inStock" (.Params.inStock | string) }}
-            {{ else }}
+                {{ else }}
                 {{ $.Scratch.Set "inStock" "false" }}
-            {{ end }}
-            {{ range .Params.variants }}
-                {{ $variantActualPrice := (.actualPrice | replaceRE "[^0-9.]+" "" | float )  }}
+                {{ end }}
+                {{ range .Params.variants }}
+                {{ $variantActualPrice := (.actualPrice | replaceRE "[^0-9.]+" "" | float ) }}
                 {{ $actualPrice := ($.Scratch.Get "minimumPrice" | replaceRE "[^0-9.]+" "" | float) }}
                 {{ if lt $variantActualPrice $actualPrice }}
-                    {{ $.Scratch.Set "minimumPrice" (.actualPrice | string)}} 
-                    {{ $.Scratch.Set "isMinimumVariantPrice" "true"}}
+                {{ $.Scratch.Set "minimumPrice" (.actualPrice | string)}}
+                {{ $.Scratch.Set "isMinimumVariantPrice" "true"}}
                 {{ end }}
                 {{ if .inStock }}
-                    {{ $.Scratch.Set "inStock" "true" }}
+                {{ $.Scratch.Set "inStock" "true" }}
                 {{ end }}
-            {{ end }}
-            {{ if eq ($.Scratch.Get "isMinimumVariantPrice") "true" }} From {{ end }}
-            {{ $.Scratch.Get "minimumPrice" }} 
-            {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span>— Sold Out</span> {{ end }}
-        </span>
-        [Read more...]
+                {{ end }}
+                {{ if eq ($.Scratch.Get "isMinimumVariantPrice") "true" }} From {{ end }}
+                {{ $.Scratch.Get "minimumPrice" }}
+                {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span>— Sold Out</span> {{ end }}
+            </span>
+            <br>
+            [Read more...]
+        </li>
+        <li>
+            <span>
+                {{ partial "responsive-image"
+                (dict
+                "context" .
+                "filename" .Params.thumbnailImage
+                "page" ($.Page.File.Path)
+                "altText" ($.Params.title)
+                )
+                }}
+            </span>
+        </li>
     </a>
-    
-
