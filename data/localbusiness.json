@@ -11,7 +11,12 @@
     "postalCode": "60604",
     "addressCountry": "USA"
   },
-  "telephone": "+1-312-285-2209",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "41.8781",
+    "longitude": "-87.6298"
+  },
+  "telephone": "+1-312-285-2039",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",

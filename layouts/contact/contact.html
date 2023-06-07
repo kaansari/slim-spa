@@ -1,6 +1,12 @@
 {{ define "main" }}
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxnYjcRENX-GdFlvK9hXkJ2qyUMp9qdo4"></script>
+<style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>
   <script>
     function initMap() {
       var location = {lat: 41.8781, lng: -87.6298}; // Coordinates for Chicago, IL
@@ -15,26 +21,7 @@
     }
   </script>
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Your Company Name",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "231 S State St",
-        "addressLocality": "Chicago",
-        "addressRegion": "IL",
-        "postalCode": "60604",
-        "addressCountry": "US"
-      },
-      "telephone": "678-386-1625",
-      "email": "info@macagain.net",
-      "url": "https://www.example.com",
-      "openingHours": [
-        "Mo-Fr 08:00-18:00",
-        "Sa 10:00-18:00"
-      ]
-    }
+    {{ .Site.Data.localbusiness }}
   </script>
 <article>
   {{/*
@@ -54,21 +41,51 @@
 
   <div>
     <ul>
-        <li>Address: 231 S State St, Chicago, IL</li>
-        <li>Phone: 678-386-1625</li>
-        <li>Email: info@macagain.net</li>
-        <li>Business Hours:</li>
-        <ul>
-          <li>Monday to Friday: 8:00 AM - 6:00 PM</li>
-          <li>Saturday: 10:00 AM - 6:00 PM</li>
-        </ul>
+      {{ if .Site.Data.localbusiness.telephone }}
+  <li><strong>Phone: </strong>{{ .Site.Data.localbusiness.telephone }}</li>
+  {{ end }}
+    {{ if .Site.Data.contact.email }}
+    <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">{{ .Site.Data.contact.email }}</a></li>
+  {{ end }}
+    {{ if .Site.Data.localbusiness.address }}
+    <li style="white-space: pre-wrap;"><strong>Address: </strong>{{ .Site.Data.localbusiness.address.streetAddress }}, {{ .Site.Data.localbusiness.address.addressLocality }}, {{ .Site.Data.localbusiness.address.addressRegion }}, {{ .Site.Data.localbusiness.address.postalCode }}, {{ .Site.Data.localbusiness.address.addressCountry }}</li>
+  {{ end }}
+
         <div id="map"></div>
         <script>
-          initMap();
+          function initMap() {
+            var location = {
+            lat: 41.8781,
+            lng: -87.6298
+             };
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 15,
+              center: location
+            });
+            var marker = new google.maps.Marker({
+              position: location,
+              map: map
+            });
+          }
         </script>
 
-    </ul>
-
+     </ul>
+    {{ if .Site.Data.localbusiness.openingHoursSpecification }}
+  <h4 class="mt-4">Business Hours</h4>
+  <table class="table table-sm opening-hours-table">
+    {{ range .Site.Data.localbusiness.openingHoursSpecification }}
+    <tr>
+      <td class="day font-weight-bold">
+        {{ .dayOfWeek }}
+        <br>
+      </td>
+      <td class="opens">{{ .opens }}</td>
+      <td>-</td>
+      <td class="closes">{{ .closes }}</td>
+    </tr>
+    {{ end }}
+  </table>
+{{ end }}
 
   </div>
 
