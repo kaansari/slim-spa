@@ -86,7 +86,7 @@
     This body class is helpful in figuring
     out which template is being loaded
   */}}
-  <body
+  <body style="padding-top: 60px; margin: 0;"
     class="type-{{ .Type }}
     {{ if .IsPage }}
       page-single
@@ -101,5 +101,7 @@
 
     {{/* Non-critical JS Bundles go at the end of `body` */}}
     {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "js") }}
+  
+    {{ partial "google-analytics.html" . }}
   </body>
 </html>

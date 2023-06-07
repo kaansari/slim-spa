@@ -77,7 +77,7 @@ taxonomies:
 ignoreFiles: []
 
 # the length of text to show in a .Summary
-summaryLength: 70
+summaryLength: 30
 
 # Pagination
 paginate: 9

@@ -1,12 +1,13 @@
 
-<article>
-   <ul>
-    <div class="row">
+<div class="container">
+
+    <div class="product-row">
         {{ range .Data.Pages }} 
             {{ partial "products/list/product-list-item.html" . }} 
+           
         {{ end }}
+       
     </div>
-    </ul>
     
     <script>
     var productVariants = null;
@@ -16,4 +17,4 @@
             {{ partial "products/common/site-main-nav.html" . }} 
         </div>
     </div>
-</article>
+</div>

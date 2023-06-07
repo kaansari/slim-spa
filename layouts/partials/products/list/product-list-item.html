@@ -1,15 +1,22 @@
+
+
+<div class="product-list-item">
+
 {{ with .Params }}
 <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "{{ .title }}",
-    "description": "{{ .description }}",
-    "brand": "{{ .brand }}",
-    "image": "{{.thumbnailImage }}",
-    "offers": {{ .offers}},
-    "category": {{.categories}},
-    "keywords":{{.tags}}
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .title }}",
+  "genre":{{.genre}},
+  "description": "{{ .description }}",
+  "brand": "{{ .brand }}",
+  "image": "{{.thumbnailImage }}",
+  "offers": {{ .offers}},
+  "category": {{.categories}},
+  "keywords":{{.keywords}},
+  "review":{{.review}},
+  "tags":{{ .tags}}
       
     
     {{/* Add more properties as needed */}}
@@ -19,8 +26,7 @@
 
 
 
-    <a href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
-        <li>
+    <a class="link" href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
 
 
             <span>{{ .Params.title }}</span>
@@ -28,6 +34,7 @@
 
             <span>
                 {{ if .Params.actualPrice }}
+                $
                 {{ $.Scratch.Set "minimumPrice" (.Params.actualPrice | string) }}
                 {{ else }}
                 {{ $.Scratch.Set "minimumPrice" "999999999999999"}}
@@ -52,10 +59,7 @@
                 {{ $.Scratch.Get "minimumPrice" }}
                 {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span>— Sold Out</span> {{ end }}
             </span>
-            <br>
-            [Read more...]
-        </li>
-        <li>
+          </p>
             <span>
                 {{ partial "responsive-image"
                 (dict
@@ -63,8 +67,10 @@
                 "filename" .Params.thumbnailImage
                 "page" ($.Page.File.Path)
                 "altText" ($.Params.title)
+                "nolink" "false"
                 )
                 }}
             </span>
-        </li>
+ 
     </a>
+</div>

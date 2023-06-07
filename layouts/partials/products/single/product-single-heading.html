@@ -4,13 +4,16 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "{{ .title }}",
+    "genre":{{.genre}},
     "description": "{{ .description }}",
     "brand": "{{ .brand }}",
     "image": "{{.thumbnailImage }}",
     "offers": {{ .offers}},
     "category": {{.categories}},
-    "keywords":{{.tags}}
-      
+    "keywords":{{.keywords}},
+    "review":{{.review}},
+    "tags":{{ .tags}}
+   
     
     {{/* Add more properties as needed */}}
   }
@@ -40,6 +43,7 @@
       "filename" .
       "altText" "prodct picture"
       "page" ($.Page.File.Path) 
+      "nolink" "true"
     )
   }}
     {{ end }}

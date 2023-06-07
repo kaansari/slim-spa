@@ -1,2 +1,28 @@
 @import 'css/global.css';
 
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new line when there's not enough space */
+    justify-content: space-between; /* Distribute items evenly along the row */
+  }
+  
+  .product-list-item {
+    flex-basis: calc(50% - 10px); /* Set width for each content item with 20px margin on both sides */
+    padding: 10px;
+    margin-bottom: 10px; /* Add some spacing between rows */
+  }
+  
+  @media (max-width: 600px) {
+    .content {
+      flex-basis: 100%; /* Make items take full width on small screens */
+    }
+  }
+
+  
+  
+  

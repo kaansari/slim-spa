@@ -5,6 +5,7 @@
     "@type": "Brand",
     "name": "MedSpa & Weight Loss Managment of Chicago"
   },
+   "genre": "Beauty",
     "description": "Enhance your natural beauty and achieve flawless results with our professional threading services.",
     "date": "2018-05-12T15:48:00+05:30",
     "tags": ["Professional Threading Services", "Certified Aesthetician", "Flawless Results", "Full Face Threading", "Side Burns Threading", "Cheeks Threading", "Upper Lips Threading", "Chin Threading", "Eyebrows Threading", "Enhance Natural Beauty", "Perfectly Shaped Eyebrows", "Radiant Face", "Customizable Offerings", "Instant Results", "Downtown Chicago Loop", "Beauty Services", "Aesthetics", "Hair Removal", "Groomed Appearance"],
@@ -78,7 +79,19 @@
       "name": "Time to Value",
       "value": "Instant results"
     }
-  ]
+  ],
+   "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.9",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Maya Burhani"
+    }
+  }
 }
 
 ----
@@ -100,4 +113,4 @@
 
 ⏰ No need to wait for a transformation! Our threading services deliver instant results, allowing you to walk out of our downtown Chicago Loop location looking and feeling your best.
 
-🌟 Discover the power of professional threading today and experience the difference a certified aesthetician can make! Book your appointment now and unlock a new level of beauty. 🌟
+🌟 Discover the power of professional threading today and experience the difference a certified aesthetician can make! No need to Book your appointment, simply Walk In! 🌟

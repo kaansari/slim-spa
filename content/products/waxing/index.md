@@ -5,9 +5,11 @@
     "@type": "Brand",
     "name": "MedSpa & Weight Loss Managment of Chicago"
   },
+   "genre": "Beauty",
     "description": "Professional waxing services for face and body",
     "date": "2018-05-12T15:48:00+05:30",
     "tags": ["professional waxing", "certified aesthetician", "full face waxing", "side burns and cheeks waxing", "upper lip waxing", "chin waxing", "neck waxing", "eyebrow waxing", "full leg waxing", "hand waxing", "underarm waxing", "bikini waxing", "full Brazilian waxing", "full body waxing", "customized waxing", "instant results", "smooth skin", "radiant skin", "personalized service", "customer satisfaction", "Downtown Chicago Loop", "convenient location", "book appointment", "natural beauty"],
+    "keywords": ["professional waxing", "certified aesthetician", "full face waxing", "side burns and cheeks waxing", "upper lip waxing", "chin waxing", "neck waxing", "eyebrow waxing", "full leg waxing", "hand waxing", "underarm waxing", "bikini waxing", "full Brazilian waxing", "full body waxing", "customized waxing", "instant results", "smooth skin", "radiant skin", "personalized service", "customer satisfaction", "Downtown Chicago Loop", "convenient location", "book appointment", "natural beauty"],
     "categories": ["Spa Services"],
     "images": ["img/1.jpeg", "img/2.jpeg"],
     "thumbnailImage": "img/thumbnail.jpeg",
@@ -102,7 +104,19 @@
         "value": "Custom Pricing"
       }
     }
-  ]
+  ],
+   "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.9",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Maya Burhani"
+    }
+  }
 
 }
 

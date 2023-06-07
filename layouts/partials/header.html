@@ -1,9 +1,9 @@
-<header class="site-header">
-    <nav class="main-nav">
-      <ul class="nav-list">
+<header>
+    <nav>
+      <ul>
         {{/* Loop through all nav items */}}
         {{ range site.Data.nav }}
-          <li class="nav-item">
+          <li>
             {{/* .url and .title are coming from the nav.yml file */}}
             <a href="{{ .url }}">{{ .title }}</a>
           </li>

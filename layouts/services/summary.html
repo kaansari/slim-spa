@@ -1,0 +1,13 @@
+<div >
+  {{ if .Params.icon }}
+  <div>
+    <img height="80" width="80" src="{{ .Params.icon | relURL }}" alt="{{ .Title }}" />
+  </div>
+  {{ end }}
+  <div>
+    <h2>
+      <a class="link" style="color: inherit;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    {{ .Summary }}
+  </div>
+</div>

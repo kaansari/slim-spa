@@ -1,5 +1,11 @@
 /* Reset default browser styles */
+body {
+  padding-top: 0px; /* Adjust the padding value based on your header height */
+  margin: 0;
+}
+
 body, ul {
+  
   margin: 0;
   font-size: 13px;
   margin-bottom: 20px;
@@ -8,10 +14,15 @@ body, ul {
 
 /* Header styles */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: #f8f8f8;
-  padding: 20px;
+  width: 100%;
+  padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  z-index: 999; /* Set a higher z-index to ensure the header appears above other elements */
 }
 
 nav ul {
@@ -44,7 +55,12 @@ h1 {
 h2 {
   font-size: 18px;
   margin-bottom: 0px;
-  color:#333
+  color:#120202
+}
+h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  color:#c0081b
 }
 
 
@@ -56,9 +72,15 @@ footer {
   color: #777;
   font-size: 14px;
 }
+.link {
+  color: blue; /* Adjust the color to suit your design */
+  text-decoration: underline; /* Underline the link to make it more noticeable */
+}
 
+.link:focus,
+.link:hover {
+  color: red; /* Change the color on hover or focus to provide visual feedback */
+  outline: 2px solid blue; /* Add an outline to indicate focus for keyboard users */
+}
 
   
-a {
-    color: #0000;
-  }
