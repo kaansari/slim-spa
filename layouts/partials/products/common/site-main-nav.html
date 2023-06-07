@@ -1,11 +1,11 @@
 
 <nav class="nav">
     <ul class="nav-list">
-            <a  href="{{ "products/" | absURL }}">All</a>
+
         </li class="nav-item">
         {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
         <li>
-            <a href="{{ .Permalink }}">{{ .Title | title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title | title }}</a>
         </li>
         {{ end }}
     </ul>

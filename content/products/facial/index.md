@@ -7,7 +7,7 @@
    "genre": "Beauty",
     "date": "2018-05-11T22:35:06+05:30",
     "tags": ["Facial Services", "Skin Care", "Facial Treatments", "Downtown Chicago Loop", "Certified Aestheticians", "Skin Rejuvenation", "Customized Facials", "Derma Planning", "Chemical Peels", "Laser Hair Removal", "Laser Vein Removal", "Professional Care", "Instant Results", "Cash Accepted", "Credit Cards Accepted", "Skincare Experts", "Skin Transformation", "Radiant Complexion", "Blemish-Free Skin", "Fine Lines Reduction"],
-    "categories": ["Injectables", "Botox", "MedSpa"],
+    "categories": ["MedSpa", "Aesthetic"],
     "images": ["img/1.jpeg"],
     "thumbnailImage": "img/thumbnail.jpeg",
     "actualPrice": "139",

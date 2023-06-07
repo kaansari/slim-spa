@@ -1,9 +1,9 @@
-
+{{ partial "products/common/schema.html" . }} 
 
 <div class="row">
  
   <div class="item">
-    <h3>
+    <h2>
       <a class="link" style="color: inherit;" href="{{ .RelPermalink }}">
         {{ if .Params.icon }}
 
@@ -11,7 +11,7 @@
         <img height="20" width="20" src="{{ .Params.icon | relURL }}" alt="{{ .Title }}" />
         {{ end }}
        {{ .Title }}</a>
-    </h3>
+    </h2>
     
     {{ .Summary | truncate 90 "..." }}
   </div>

@@ -1,12 +1,6 @@
 {{ define "main" }}
   <main id="main">
-    <section>
-      {{ if not .Params.noTitle }}
-      <header>
-        <h1>{{ .Title | htmlUnescape }}</h1>
-      </header>
-      {{ end }}
-
+    <section class="container">
       {{/*
         `Scratch` is like a global variable store
         for Hugo, anything you put into it is available
@@ -37,12 +31,8 @@
         {{/*
           Now we need to show each posts info and link to it.
         */}}
-        <article>
-          <header>
-            <h3>
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </h3>
-          </header>
+        <article class="row" >
+          <div class="item"><h2> {{.Title}}</h2></div>
           {{ .Summary }}
         </article>
       {{ end }}

@@ -1,24 +1,4 @@
-{{ with .Params }}
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "{{ .title }}",
-    "genre":{{.genre}},
-    "description": "{{ .description }}",
-    "brand": "{{ .brand }}",
-    "image": "{{.thumbnailImage }}",
-    "offers": {{ .offers}},
-    "category": {{.categories}},
-    "keywords":{{.keywords}},
-    "review":{{.review}},
-    "tags":{{ .tags}}
-   
-    
-    {{/* Add more properties as needed */}}
-  }
-</script>
-  {{ end }}
+{{ partial "products/common/schema.html" . }} 
 <h1>{{ .Title }}</h1>
 <p>
     <span class="product-compare-price"style="text-decoration: line-through">{{ .Params.comparePrice }}</span>

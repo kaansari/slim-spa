@@ -1,5 +1,6 @@
 {
     "title": "Botox",
+    "featured": true,
     "brand": {
     "@type": "Brand",
     "name": "Botox, Dysport, Xeomin"
@@ -20,7 +21,7 @@
   "offers": [
     {
       "@type": "Offer",
-       "itemOffered": "Botox face",
+       "name": "Botox face",
         "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
       "price": "14",
       "priceCurrency": "USD",
@@ -33,7 +34,7 @@
     },
       {
       "@type": "Offer",
-       "itemOffered": "Botox Neck",
+       "name": "Botox Neck",
         "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
       "price": "14",
       "priceCurrency": "USD",
