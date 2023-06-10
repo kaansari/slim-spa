@@ -99,6 +99,9 @@
     {{/* This block is for the main page content */}}
     {{ block "main" . }} {{ end }}
 
+    {{ partial "footer" . }}
+
+
     {{/* Non-critical JS Bundles go at the end of `body` */}}
     {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "js") }}
   

@@ -66,25 +66,63 @@ h3 {
 
 
 /* Footer styles */
-footer {
-  background-color: #f8f8f8;
+.footer {
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  color: #777;
   font-size: 14px;
 }
-.link {
-  color: blue; /* Adjust the color to suit your design */
-  text-decoration: underline; /* Underline the link to make it more noticeable */
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.link:focus,
-.link:hover {
-  color: red; /* Change the color on hover or focus to provide visual feedback */
-  outline: 2px solid blue; /* Add an outline to indicate focus for keyboard users */
+.footer-icon {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-.container {
+.footer-text {
+  font-size: 14px;
+  margin: 0;
+  color: #777;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #333;
+}
+
+/* Styling for the footer container */
+.footer {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: var(--footer-text-color, #777);
+}
+
+.footer-container {
   background-color: #f5f5f5;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -94,29 +132,6 @@ footer {
   box-sizing: border-box;
 }
 
-.container h3 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.footer-links a {
+  color: var(--footer-text-color, #777);
 }
-
-.container p {
-  font-size: 13px;
-  line-height: 1.5;
-  color: #666666;
-}
-
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.item {
-  width: 90%; /* Adjust the width as needed for the number of items per row */
-  padding: 0px;
-  box-sizing: border-box;
-  justify-content:left ;
-}
-

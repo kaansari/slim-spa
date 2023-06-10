@@ -1,12 +1,13 @@
 [
     {
         "name": "Instagram",
-        "link": "https://twitter.com/zerostaticio",
-        "image": "social/instagram.svg"
+        "link": "https://instagram.com",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#ffffff' width='20' height='20'><path d='...' /></svg>"
     },
     {
-        "name": "facebook",
-        "link": "https://twitter.com/zerostaticio",
-        "image": "social/facebook.svg"
+        "name": "Facebook",
+        "link": "https://facebook.com",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#ffffff' width='20' height='20'><path d='...' /></svg>"
     }
 ]
+
