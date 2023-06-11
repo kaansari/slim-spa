@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "SLIM SPA",
+  "name": "MedSpa & Weight Loss of Chicago",
   "description": "We offer a range of services at our med spa to help you look and feel your best.",
   "address": {
     "@type": "PostalAddress",
