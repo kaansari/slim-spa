@@ -2,12 +2,12 @@
     {
         "name": "Instagram",
         "link": "https://instagram.com",
-        "image": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#ffffff' width='20' height='20'><path d='...' /></svg>"
+        "image": "/social/instagram.svg"
     },
     {
         "name": "Facebook",
         "link": "https://facebook.com",
-        "image": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#ffffff' width='20' height='20'><path d='...' /></svg>"
+        "image": "/social/facebook.svg"
     }
 ]
 

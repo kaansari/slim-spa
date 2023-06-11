@@ -1,10 +1,9 @@
 <footer class="footer">
-  <div class="footer-container">
     <div class="footer-social">
       {{ if .Site.Data.social }}
         {{ range .Site.Data.social }}
-          <a href="{{ .link }}" target="_blank" class="footer-icon">
-            <img src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
+          <a href="{{ .link }}" target="_blank">
+            <img class="social-icons" src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
           </a>
         {{ end }}
       {{ end }}
@@ -14,5 +13,4 @@
       <li><a href="#">Contact</a></li>
     </ul>
     <p class="footer-text">© 2023 {{ .Site.Data.localbusiness.name }}</p>
-  </div>
 </footer>
