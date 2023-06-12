@@ -5,6 +5,8 @@
     "@type": "Brand",
     "name": "Botox, Dysport, Xeomin"
     },
+    "genre": "Beauty",
+    "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
     "date": "2023-05-11T22:35:06+05:30",
     "genre": "Beauty",
     "tags": ["cosmetic procedures", "anti-aging", "facial rejuvenation", "wrinkle treatment"],
@@ -16,7 +18,6 @@
     "inStock": "true",
     "availability": "InStock",
     "name": "Botox",
-   "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
   "keywords": "Botox, Dysport, Xeomin, wrinkle-free, prevent wrinkles, facial lines",
   "offers": [
     {

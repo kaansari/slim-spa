@@ -1,9 +1,10 @@
 {
     "title": "Waxing",
+    "featured": false,
     "name": "waxing service",
         "brand": {
     "@type": "Brand",
-    "name": "MedSpa & Weight Loss Managment of Chicago"
+    "name": "MedSpa & Weight Loss of Chicago"
   },
    "genre": "Beauty",
     "description": "Professional waxing services for face and body",

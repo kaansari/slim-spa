@@ -1,9 +1,10 @@
 {
     "title": "Threading",
+    "featured": false,
     "name": "Professional Threading Services",
       "brand": {
     "@type": "Brand",
-    "name": "MedSpa & Weight Loss Managment of Chicago"
+    "name": "MedSpa & Weight Loss of Chicago"
   },
    "genre": "Beauty",
     "description": "Enhance your natural beauty and achieve flawless results with our professional threading services.",

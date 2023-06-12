@@ -1,10 +1,12 @@
 {
     "title": "Extensive Facial",
+    "featured": false,
     "brand": {
     "@type": "Brand",
-    "name": "MedSpa & Weight Loss Managment of Chicago"
+    "name": "MedSpa & Weight Loss of Chicago"
   },
    "genre": "Beauty",
+    "description": "Rejuvenate your skin with a range of facial services, including derma planning, chemical peel, laser hair removal, laser vein removal, jet peels, IPL photo facial, laser acne treatment, and laser skin resurfacing.",
     "date": "2018-05-11T22:35:06+05:30",
     "tags": ["Facial Services", "Skin Care", "Facial Treatments", "Downtown Chicago Loop", "Certified Aestheticians", "Skin Rejuvenation", "Customized Facials", "Derma Planning", "Chemical Peels", "Laser Hair Removal", "Laser Vein Removal", "Professional Care", "Instant Results", "Cash Accepted", "Credit Cards Accepted", "Skincare Experts", "Skin Transformation", "Radiant Complexion", "Blemish-Free Skin", "Fine Lines Reduction"],
     "categories": ["MedSpa", "Aesthetic"],
@@ -17,7 +19,6 @@
     "name": "Botox",
     "keywords":["Facial Services", "Skin Care", "Facial Treatments", "Downtown Chicago Loop", "Certified Aestheticians", "Skin Rejuvenation", "Customized Facials", "Derma Planning", "Chemical Peels", "Laser Hair Removal", "Laser Vein Removal", "Professional Care", "Instant Results", "Cash Accepted", "Credit Cards Accepted", "Skincare Experts", "Skin Transformation", "Radiant Complexion", "Blemish-Free Skin", "Fine Lines Reduction"],
     "categories": ["Injectables", "Botox", "MedSpa"],
-  "description": "Rejuvenate your skin with a range of facial services, including derma planning, chemical peel, laser hair removal, laser vein removal, jet peels, IPL photo facial, laser acne treatment, and laser skin resurfacing.",
   "offers": [
     {
       "@type": "Offer",
