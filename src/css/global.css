@@ -40,6 +40,11 @@ nav ul li {
 nav ul li a {
   color: #333;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #666; /* Change the color to a darker grey */
 }
 
 /* Section styles */
