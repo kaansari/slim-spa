@@ -65,9 +65,8 @@
 
 }
 ----
-
-
-
+      
+        
 {{<responsive-image filename="img/botox.jpeg" alt="Facial Transformation with Botox">}}
 
 🌟 Discover the Key to Wrinkle-Free Skin! 🌟

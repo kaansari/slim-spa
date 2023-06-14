@@ -11,6 +11,7 @@ tags:
 featured: true
 weight: 1
 icon: services/service-icon-1.png
+noTitle: true
 ---
 Are you ready to take control of your weight and embark on a journey towards a healthier, happier you? Look no further! Our team of board-certified physicians is here to provide you with FDA-approved medical treatment tailored to your specific needs. With our expertise and personalized approach, we'll help you achieve your weight loss goals safely and efficiently.
 

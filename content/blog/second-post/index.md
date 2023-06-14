@@ -8,10 +8,7 @@ tags:
   - Second
   - Amazing
   - Wow
+noTitle: true
 ---
 
 # My second post
-
-This one has a photo
-
-{{<responsive-image filename="img/photo.jpg" alt="A building with large glass windows">}}
