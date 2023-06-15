@@ -59,6 +59,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .menu li {
@@ -93,6 +94,7 @@ nav {
     top: 60px;
     left: 0;
     width: 100%;
+    text-align: center;
   }
 
   .menu li {
