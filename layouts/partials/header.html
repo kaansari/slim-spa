@@ -1,6 +1,13 @@
+
 <header>
     <nav>
-      <ul>
+      <div class="logo">{{ .Site.Title}}</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+      <ul class="menu">
         {{/* Loop through all nav items */}}
         {{ range site.Data.nav }}
           <li>
@@ -11,3 +18,11 @@
       </ul>
     </nav>
   </header>
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+const menu = document.querySelector('.menu');
+
+hamburgerMenu.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
+  </script>
