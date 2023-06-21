@@ -9,7 +9,7 @@ tags:
   - Cheap
   - Cash
 featured: true
-weight: 2
+weight: 3
 icon: services/service-icon-4.png
 noTitle: true
 ---

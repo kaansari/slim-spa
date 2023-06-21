@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+
     {{/* Cricital CSS & JS Bundles */}}
     {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "css") }}
     {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "js") }}

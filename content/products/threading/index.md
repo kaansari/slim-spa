@@ -94,7 +94,6 @@
     }
   }
 }
-
 ----
 
 ## 🌟 Get flawless, perfectly shaped eyebrows and a radiant face with our professional threading services! 🌟

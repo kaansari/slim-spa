@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
-  <text x="0" y="50" font-family="Arial, sans-serif" font-size="36" fill="#333333">Sculpt</text>
-  <text x="85" y="50" font-family="Arial, sans-serif" font-size="36" fill="#ff6600">&amp;</text>
-  <text x="105" y="50" font-family="Arial, sans-serif" font-size="36" fill="#333333">Glow</text>
+  <text x="0" y="50" font-family="Arial, sans-serif" font-size="36" font-style="italic" fill="#333333">Sculpt</text>
+  <text x="85" y="50" font-family="Arial, sans-serif" font-size="36" font-style="italic" fill="#ff6600">&amp;</text>
+  <text x="105" y="50" font-family="Arial, sans-serif" font-size="36" font-style="italic" fill="#333333">Glow</text>
 </svg>
