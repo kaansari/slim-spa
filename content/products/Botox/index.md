@@ -18,6 +18,7 @@
     "inStock": "true",
     "availability": "InStock",
     "name": "Botox",
+    "bookingURL": "https://squareup.com/appointments/book/bc103pxchpy4tj/LH6MKHHS71HNS/services", 
   "keywords": "Botox, Dysport, Xeomin, wrinkle-free, prevent wrinkles, facial lines",
   "offers": [
     {

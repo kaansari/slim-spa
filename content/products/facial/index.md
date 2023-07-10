@@ -1,6 +1,6 @@
 {
     "title": "Extensive Facial",
-    "featured": false,
+    "featured": true,
     "brand": {
     "@type": "Brand",
     "name": "MedSpa & Weight Loss of Chicago"
@@ -19,6 +19,7 @@
     "name": "Botox",
     "keywords":["Facial Services", "Skin Care", "Facial Treatments", "Downtown Chicago Loop", "Certified Aestheticians", "Skin Rejuvenation", "Customized Facials", "Derma Planning", "Chemical Peels", "Laser Hair Removal", "Laser Vein Removal", "Professional Care", "Instant Results", "Cash Accepted", "Credit Cards Accepted", "Skincare Experts", "Skin Transformation", "Radiant Complexion", "Blemish-Free Skin", "Fine Lines Reduction"],
     "categories": ["Injectables", "Botox", "MedSpa"],
+    "bookingURL": "https://squareup.com/appointments/book/bc103pxchpy4tj/LH6MKHHS71HNS/services", 
   "offers": [
     {
       "@type": "Offer",

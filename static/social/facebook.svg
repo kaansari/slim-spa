@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
-  <circle cx="60" cy="60" r="60" fill="#fff" />
-  <path d="M69.6 29.4h-6.9c-3.5 0-5.7 2.2-5.7 5.6v9.3H69l-0.8 9.1H56.9v29.2H45.6V53.4H33.9v-9.1h11.7V31c0-8.6 5.3-13.3 12.9-13.3h11.1v10.8H59.3c-2 0-2.4 1-2.4 2.4v7.3h14.8L69.6 29.4z" fill="#4267B2" />
-</svg>
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="6.82666in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 6.82666 6.82666" width="6.82666in" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#1976D2}
+    .fil1 {fill:white}
+   ]]>
+  </style></defs><g id="Layer_x0020_1"><rect class="fil0" height="6.82667" rx="1.45635" ry="1.45635" width="6.82667"/><path class="fil1" d="M4.19658 3.51299l-0.546957 0 0 2.00372 -0.82865 0 0 -2.00372 -0.394118 0 0 -0.704406 0.394118 0 0 -0.45565c0,-0.325795 0.154697,-0.83622 0.836161,-0.83622l0.613618 0.00265354 0 0.683575 -0.445252 0c-0.0731693,0 -0.175878,0.0365512 -0.175878,0.19187l0 0.414602 0.619563 0 -0.0726063 0.703575z"/></g></svg>

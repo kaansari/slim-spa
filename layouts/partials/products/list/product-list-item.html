@@ -1,6 +1,6 @@
 
 
-<div class="product-list-item">
+<div>
 
   {{ partial "products/common/schema.html" . }} 
 
@@ -8,49 +8,39 @@
 
     <a class="link" href="{{ .RelPermalink }}" style="color: inherit;" aria-label="Read more about {{ .Params.title }} ">
 
+      <div class="card">
+        <span>
+          {{ partial "responsive-image"
+          (dict
+          "context" .
+          "filename" .Params.thumbnailImage
+          "page" ($.Page.File.Path)
+          "altText" ($.Params.title)
+          "nolink" "false"
+          )
+          }}
+      </span>
+            <h2>{{ .Params.title }}</h2>
+           
+            <p>
 
-            <span>{{ .Params.title }}</span>
-
-
-            <span>
-                {{ if .Params.actualPrice }}
-                $
-                {{ $.Scratch.Set "minimumPrice" (.Params.actualPrice | string) }}
-                {{ else }}
-                {{ $.Scratch.Set "minimumPrice" "999999999999999"}}
-                {{ end }}
-                {{ if .Params.inStock }}
-                {{ $.Scratch.Set "inStock" (.Params.inStock | string) }}
-                {{ else }}
-                {{ $.Scratch.Set "inStock" "false" }}
-                {{ end }}
-                {{ range .Params.variants }}
-                {{ $variantActualPrice := (.actualPrice | replaceRE "[^0-9.]+" "" | float ) }}
-                {{ $actualPrice := ($.Scratch.Get "minimumPrice" | replaceRE "[^0-9.]+" "" | float) }}
-                {{ if lt $variantActualPrice $actualPrice }}
-                {{ $.Scratch.Set "minimumPrice" (.actualPrice | string)}}
-                {{ $.Scratch.Set "isMinimumVariantPrice" "true"}}
-                {{ end }}
-                {{ if .inStock }}
-                {{ $.Scratch.Set "inStock" "true" }}
-                {{ end }}
-                {{ end }}
-                {{ if eq ($.Scratch.Get "isMinimumVariantPrice") "true" }} From {{ end }}
-                {{ $.Scratch.Get "minimumPrice" }}
-                {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span>— Sold Out</span> {{ end }}
-            </span>
+<p>
+    <span class="product-compare-price"style="text-decoration: line-through">${{ .Params.comparePrice }}</span>
+    <span class="product-actual-price">{{ .Params.actualPrice }}</span>
+    <span class="product-not-in-stock" class="font-weight-bold" {{ if .Params.inStock }} style="display:none" {{end}}>— Sold Out</span>
+</p>
           </p>
-            <span>
-                {{ partial "responsive-image"
-                (dict
-                "context" .
-                "filename" .Params.thumbnailImage
-                "page" ($.Page.File.Path)
-                "altText" ($.Params.title)
-                "nolink" "false"
-                )
-                }}
-            </span>
- 
-    </a>
+        </a>
+          <p>{{ .Summary }}</p>
+          <p>
+            
+            CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
+            </p>
+            <p>
+              <a href="{{ .Params.bookingURL }}">
+          <button>Make Appointment</button>
+              </a>
+        </p>
+          </div>
+    
 </div>

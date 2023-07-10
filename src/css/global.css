@@ -13,9 +13,7 @@ body {
 }
 
 article {
-   
   margin: 20px;
-  
 }
 
 
@@ -101,7 +99,6 @@ nav {
   .hamburger-menu {
     display: block;
   }
-
   .menu {
     display: none;
     background-color: #333333;
