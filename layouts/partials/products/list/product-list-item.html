@@ -31,7 +31,7 @@
 </p>
           </p>
         </a>
-          <p>{{ .Summary }}</p>
+          <p>{{ .Summary | truncate 90 "..."}}</p>
           <p>
             
             CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>

@@ -87,11 +87,11 @@ nav {
 }
 
 .menu li a:hover {
-  color: #ff6600;
+  color: #FFD700;
 }
 
 .menu li.active a {
-  color: #ff6600;
+  color: #FFD700;
 }
 
 /* Media Query for Mobile Devices */
