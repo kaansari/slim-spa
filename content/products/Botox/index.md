@@ -20,36 +20,20 @@
     "name": "Botox",
     "bookingURL": "https://squareup.com/appointments/book/bc103pxchpy4tj/LH6MKHHS71HNS/services", 
   "keywords": "Botox, Dysport, Xeomin, wrinkle-free, prevent wrinkles, facial lines",
-  "offers": [
-    {
-      "@type": "Offer",
-       "name": "Botox face",
-        "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
-      "price": "14",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "keywords": "Botox, Dysport, Xeomin, wrinkle-free, prevent wrinkles, facial line",
-      "seller": {
-        "@type": "Organization",
-        "name": "MedSpa and Weight Management of Chicago"
-      }
+ 
+  "offers": {
+    "@type": "Offer",
+    "price": "15",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Your Business Name"
     },
-      {
-      "@type": "Offer",
-       "name": "Botox Neck",
-        "description": "Prevent wrinkle formation and smooth out facial lines, The Key to Wrinkle-Free Skin.",
-      "price": "14",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-       "keywords": "Botox, Dysport, Xeomin, wrinkle-free, prevent wrinkles, facial line",
-      "seller": {
-        "@type": "Organization",
-        "name": "MedSpa and Weight Management of Chicago"
-      }
-    }
-   
-  ],
-  
+    "validFrom": "2023-06-01",
+    "validThrough": "2023-12-31",
+    "url": "offer/1"
+  },
   "review": {
     "@type": "Review",
     "reviewRating": {
