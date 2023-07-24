@@ -13,7 +13,7 @@ noTitle: true
 
 ## Privacy Policy
 
-Macagain Corp/Belaal Sheikh Notice of Privacy Practices Your Information. Your Rights. Our Responsibilities. Macagain Corp/Belaal Sheikh Privacy Practices Privacy Practices THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY. Macagain Corp/Belaal Sheikh(“Macagain Corp/Belaal Sheikh,” “we,” or “us”) is committed to providing you with the highest quality of care in an environment that protects your privacy and the confidentiality of your health information. To that end, this notice explains our privacy practices, as well as your rights, with regard to your health information. Your Rights When it comes to your health information, you have certain rights. 
+Medin PLLC/Belaal Sheikh Notice of Privacy Practices Your Information. Your Rights. Our Responsibilities. Medin PLLC/Belaal Sheikh Privacy Practices Privacy Practices THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY. Medin PLLC/Belaal Sheikh(“Medin PLLC/Belaal Sheikh,” “we,” or “us”) is committed to providing you with the highest quality of care in an environment that protects your privacy and the confidentiality of your health information. To that end, this notice explains our privacy practices, as well as your rights, with regard to your health information. Your Rights When it comes to your health information, you have certain rights. 
 
 ### This section explains your rights and how to exercise them.
 
