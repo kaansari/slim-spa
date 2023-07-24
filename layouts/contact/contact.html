@@ -29,9 +29,9 @@
     the page title from showing up here
   */}}
   {{ if not .Params.noTitle }}
-  <header>
+ 
     <h1>{{ .Title | htmlUnescape }}</h1>
-  </header>
+
   {{ end }}
 
   <main id="main">
@@ -42,10 +42,10 @@
   <div>
     <ul>
       {{ if .Site.Data.localbusiness.telephone }}
-  <li><strong>Phone: </strong>{{ .Site.Data.localbusiness.telephone }}</li>
+  <li><strong> CALL :</strong><a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a></li>
   {{ end }}
-    {{ if .Site.Data.contact.email }}
-    <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">{{ .Site.Data.contact.email }}</a></li>
+    {{ if .Site.Data.localbusiness.email }}
+    <li><strong>Email: </strong><a href="mailto:">info@sculpt-glow.com</a></li>
   {{ end }}
     {{ if .Site.Data.localbusiness.address }}
     <li style="white-space: pre-wrap;"><strong>Address: </strong>{{ .Site.Data.localbusiness.address.streetAddress }}, {{ .Site.Data.localbusiness.address.addressLocality }}, {{ .Site.Data.localbusiness.address.addressRegion }}, {{ .Site.Data.localbusiness.address.postalCode }}, {{ .Site.Data.localbusiness.address.addressCountry }}</li>
