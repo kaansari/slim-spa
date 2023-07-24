@@ -11,7 +11,7 @@ tags:
 featured: true
 weight: 3
 icon: services/wl.svg
-noTitle: true
+noTitle: false
 ---
 Come have a consultation with one of our Physicians who specialize in weight loss, and are Board Certified in Obesity Medicine.  Our specialist can help in weight loss.
 

@@ -5,9 +5,8 @@
       the page title from showing up here
     */}}
   {{ if not .Params.noTitle }}
-  <header>
+  
     <h1>{{ .Title | htmlUnescape }}</h1>
-  </header>
   {{ end }}
 
 
