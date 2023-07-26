@@ -47,9 +47,14 @@
     {{ if .Site.Data.localbusiness.email }}
     <li><strong>Email: </strong><a href="mailto:">info@sculpt-glow.com</a></li>
   {{ end }}
-    {{ if .Site.Data.localbusiness.address }}
-    <li style="white-space: pre-wrap;"><strong>Address: </strong>{{ .Site.Data.localbusiness.address.streetAddress }}, {{ .Site.Data.localbusiness.address.addressLocality }}, {{ .Site.Data.localbusiness.address.addressRegion }}, {{ .Site.Data.localbusiness.address.postalCode }}, {{ .Site.Data.localbusiness.address.addressCountry }}</li>
-  {{ end }}
+  {{ if .Site.Data.localbusiness.address }}
+  <li> <strong>Address: </strong>
+    <a href="https://www.google.com/maps/place/{{ replace .Site.Data.localbusiness.address.streetAddress " " "+" }},+{{ replace .Site.Data.localbusiness.address.addressLocality " " "+" }},+{{ replace .Site.Data.localbusiness.address.addressRegion " " "+" }},+{{ replace .Site.Data.localbusiness.address.postalCode " " "+" }},+{{ replace .Site.Data.localbusiness.address.addressCountry " " "+" }}" target="_blank">
+      {{ .Site.Data.localbusiness.address.streetAddress }}, {{ .Site.Data.localbusiness.address.addressLocality }}, {{ .Site.Data.localbusiness.address.addressRegion }}, {{ .Site.Data.localbusiness.address.postalCode }}, {{ .Site.Data.localbusiness.address.addressCountry }}
+    </a>
+  </li>
+{{ end }}
+
 
         <div id="map"></div>
         <script>
