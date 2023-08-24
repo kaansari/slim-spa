@@ -33,7 +33,7 @@
 <div class="container">
     <h2>Our Featured Services</h2>
 
-{{ range first 4 (sort $services ".Params.weight") }}
+{{ range (sort $services ".Params.weight") }}
 
  
 {{ .Render "summary" }}

@@ -3,9 +3,12 @@
     <nav>
       <div>
         <a href="/">
-        <img  src="/hero/logo.svg" alt="our logo" width="180" height="30">
+        <img  src="/hero/logo.svg" alt="our logo" height="30">
       </a>
       </div>
+
+
+      
       <div class="hamburger-menu">
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
@@ -21,6 +24,18 @@
         {{ end }}
       </ul>
     </nav>
+  
+  <div style="background-color: #000;">          
+    CALL :<a style="color: #ffff;" href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
+   
+
+      <a href="{{ .Params.bookingURL }}">
+        <button style="color: #000;">Make Appointment</button>
+            </a>
+
+
+    </div>
+
   </header>
   <script>
     const hamburgerMenu = document.querySelector('.hamburger-menu');
