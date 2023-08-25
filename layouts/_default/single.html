@@ -14,6 +14,13 @@
   <main id="main">
     {{/* This is the markdown file content */}}
     {{ .Content }}
+
+    <div class="appointment-message" style="text-align: center;">
+      <p>Call us at <a href="tel:{{ .Site.Data.localbusiness.telephone }}">
+          {{ .Site.Data.localbusiness.telephone }}
+      </a> to make an appointment. These are our <a href="URL_TO_TERMS_OF_SERVICE">Terms of Services</a>.</p>
+    </div>
+  
   </main>
 </article>
 {{ end }}
