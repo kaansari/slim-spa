@@ -1,15 +1,24 @@
 ---
 draft: false
 date: "2023-05-11T22:35:06+05:31"
-title: "Cannula PRP"
-description: "Cannula PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive rejuvenation with minimal downtime. By using a blunt-tipped cannula for precise injections, it promotes collagen production, reduces fine lines and scars, and enhances skin texture, providing natural and long-lasting beauty enhancements."
+title: "PRP"
+description: "PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive, rejuvenation with minimal downtime. Administerng PRP under the skin promotes collagen production, reduces fine lines, wrinkles, dark circles, scars, and enhances skin texture, providing natural and long-lasting beauty enhancements."
 categories:
   - Services
   - non-surgical
   - MedSpa
 tags:
   - PRP
+  - plasma 
   - Cannula
+  - undereyes 
+  - saggy undereyes
+  - non surgical facelift
+  - natural 
+  - youthful
+  - aging 
+  - dark circles 
+  - minimally invasive
   - Microneedling
 featured: true
 weight: 2
@@ -17,17 +26,17 @@ icon: services/aesthetic.svg
 noTitle: false
 ---
 
-Cannula PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive rejuvenation with minimal downtime. By using a blunt-tipped cannula for precise injections, it promotes collagen production, reduces fine lines and scars, and enhances skin texture, providing natural and long-lasting beauty enhancements.
+PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive rejuvenation with minimal downtime. By using a blunt-tipped cannula for precise injections, it promotes collagen production, reduces fine lines and scars, and enhances skin texture, providing natural and long-lasting beauty enhancements.
 
 ---
 | Attribute                     | Detail                                                                      |
 | ----------------------------- | --------------------------------------------------------------------------- |
-| **Treatment Name**            | Cannula PRP Rejuvenation and Beauty Treatment                                |
+| **Treatment Name**            | PRP Rejuvenation and Beauty Treatment                                |
 | **Procedure Description**     | A minimally invasive procedure that involves injecting PRP using a cannula to rejuvenate and enhance the skin's appearance. |
 | **Indications**               | Suitable for individuals seeking skin rejuvenation, improved texture, and a natural-looking beauty enhancement. |
 | **Procedure Duration**        | Typically takes about 30-60 minutes, depending on the area treated.         |
 | **Pain Management**           | Local anesthesia or numbing cream is applied to minimize discomfort.       |
-| **PRP Preparation**           | Patient's blood is drawn and processed to obtain Platelet-Rich Plasma (PRP). |
+| **PRP Preparation**           | Client's blood is drawn and processed to obtain plasma and drawn up in a syringe and delivered to the client.|
 | **Cannula Technique**         | Utilizes a blunt-tipped cannula for injections, reducing trauma and minimizing bruising. |
 | **Target Areas**              | Face, neck, hands, or specific areas requiring rejuvenation and volume restoration. |
 | **Benefits**                  | - Promotes collagen production for improved skin texture and elasticity.    |

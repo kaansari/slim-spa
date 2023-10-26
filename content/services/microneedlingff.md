@@ -2,21 +2,21 @@
 draft: false
 date: "2023-05-11T22:35:06+05:31"
 title: "Micorneedling"
-description: "During the treatment, one of our skilled providers gently moves the state of the art Microneedling golden pen over the skin, creating micro-injuries. These tiny injuries activate the body's natural wound healing response, stimulating the production of collagen and elastin. Following the Microneedling session, the skin may appear slightly red and swollen. Rest assured, these effects are temporary and typically subside within a few days."
+description: "During treatment, our skilled providers will use a technique that causes controlled punctures in the skin. This causes your body's natural immune response to take over and produce more collagen. This is the body's natural would healing response, stimulating the production of collagen and elastin, for a more youthful appearance."
 categories:
   - Services
   - non-surgical
   - MedSpa
 tags:
   - Botox
-  - Cash
+  - 
 featured: true
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false
 ---
  
-Microneedling works wonders in improving overall skin texture and tone. It effectively reduces the appearance of enlarged pores, refines rough skin, and evens out uneven pigmentation, such as age spots or sun damage. The procedure promotes natural cell turnover, resulting in fresher, smoother, and more evenly-toned skin.
+Microneedling works wonders in improving overall skin texture and tone. It effectively reduces the appearance of enlarged pores, refines rough skin, and helps with hyperpigmentation, such as age spots or sun damage. The procedure promotes natural cell turnover, resulting in fresher, smoother, and more evenly-toned skin.
 
 | Attribute                 | Details                                      |
 |---------------------------|----------------------------------------------|
@@ -32,4 +32,4 @@ Microneedling works wonders in improving overall skin texture and tone. It effec
 | **Results**               | Progressive, with full results visible over several weeks or months |
 | **Precautions**           | Should be performed by a trained and licensed professional.  Sun protection is crucial after treatment |
 | **Cost**                  | Varies by location and provider, typically $100 to $700 per session |
-| **Side Effects**         | Redness, swelling, and mild discomfort.  Risk of infection if not performed hygienically |
+| **Side Effects**         | Following the Microneedling session, the skin may appear slightly red and swollen. Rest assured, these effects are temporary and typically subside within a few days. |

@@ -1,18 +1,37 @@
 ---
 draft: false
 date: "2023-05-11T22:35:06+05:31"
-title: "Dysport"
-description: "We specialize in treating common areas using Botox and Dysport, such as frown lines, forehead lines, bunny lines, crow's feet, brow lift, jawline slimming, pebbly chin, turn down of the corners of the mouth, and neck bands."
+title: "Dysport/Botox"
+description: "We specialize in treating common areas using neurotoxins such as Botox and Dysport to help with the aging process and reduce the look of fine lines and wrinkles, as well as providing headache and migraine releif."
 categories:
   - Services
   - Injectables
-  - neuromodulator
+  - neurotoxin
   - non-surgical
   - MedSpa
+  
 tags:
   - Botox
   - Dysport
   - Neurotoxin 
+  - Neuromodulator
+  - Wrinkles
+  - Non surgical facelift
+  - Youthful 
+  - Appearance 
+  - Headaches
+  - Teeth grinding
+  - Forehead Wrinkles
+  - Frown lines
+  - Crows feet 
+  - Bunny lines 
+  - Smile lines 
+  - Aging
+  - Injections
+  - dimple chin
+  - neck bands
+  - brow lift
+  - jawline slimming 
 featured: true
 weight: 2
 icon: services/aesthetic.svg
@@ -26,7 +45,7 @@ We specialize in treating common areas using Botox and Dysport, such as frown li
 | Name         | Dysport                                                                                  |
 | Type         | Botulinum Toxin Type A                                                                  |
 | Purpose      | Cosmetic and therapeutic treatment for wrinkles and muscle spasticity                  |
-| Brand Names  | TBD   |
+| Brand Names  | Dysport and Botox  |
 | Administration | Injected directly into the muscle                                                      |
 | FDA Approval | Approved by the U.S. Food and Drug Administration (FDA) for cosmetic use in 2009       |
 | Uses         | - Cosmetic: Reduces the appearance of wrinkles, particularly in the forehead and around the eyes - Therapeutic: Treats muscle spasticity, cervical dystonia, and various medical conditions |

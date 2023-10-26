@@ -1,8 +1,8 @@
 ---
 draft: false
 date: "2023-05-11T22:35:06+05:31"
-title: "NAD & Beauty Injections"
-description: "NAD (Nicotinamide Adenine Dinucleotide) injections offer a range of benefits, including increased energy levels, enhanced mental clarity, improved skin quality with reduced signs of aging, and potential anti-aging effects. These injections provide a holistic approach to well-being, supporting both physical vitality and aesthetic rejuvenation."
+title: "Wellness Injections"
+description: "B12, Vitamin D, NAD (Nicotinamide Adenine Dinucleotide) injections offer a range of benefits, including increased energy levels, enhanced mental clarity, improved skin quality with reduced signs of aging, and potential anti-aging effects. These injections provide a holistic approach to well-being, supporting both physical vitality and aesthetic rejuvenation."
 categories:
   - Services
   - Injectables
@@ -17,11 +17,11 @@ weight: 2
 icon: services/aesthetic.svg
 noTitle: false
 ---
-NAD (Nicotinamide Adenine Dinucleotide) injections offer a range of benefits, including increased energy levels, enhanced mental clarity, improved skin quality with reduced signs of aging, and potential anti-aging effects. These injections provide a holistic approach to well-being, supporting both physical vitality and aesthetic rejuvenation.
+NAD (Nicotinamide Adenine Dinucleotide), B12, Vitamin D injections offer a range of benefits, including increased energy levels, enhanced mental clarity, improved skin quality with reduced signs of aging, and potential anti-aging effects. These injections provide a holistic approach to well-being, supporting both physical vitality and aesthetic rejuvenation.
 
 | Attribute                     | Detail                                                                      |
 | ----------------------------- | --------------------------------------------------------------------------- |
-| **Treatment Name**            | NAD Injection for Energy, Rejuvenation, and Beauty                           |
+| **Treatment Name**            | B12, Vitamin D, NAD Injection for Energy, Rejuvenation, and Beauty                           |
 | **Description**               | Intravenous (IV) or intramuscular (IM) injections of NAD, a coenzyme known for its potential energy-boosting, anti-aging, and rejuvenating effects. |
 | **Indications**               | Ideal for those seeking increased energy levels, enhanced skin quality, and overall well-being. |
 | **Procedure Duration**        | Typically takes 30-60 minutes, depending on the method of administration.   |

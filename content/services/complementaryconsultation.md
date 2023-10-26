@@ -2,37 +2,49 @@
 draft: false
 date: "2023-05-11T22:35:06+05:31"
 title: "Complementary Consultation"
-description: "During your complimentary consultation, our experienced providers will listen to your goals and conduct a thorough assessment. With a deeper understanding of your preferences, we'll create a tailored treatment plan that delivers exceptional results."
+description: "During your complimentary consultation, your goals and expectations will be reviewed by our experienced providers that will conduct a thorough assessment, and create a tailored treatment plan to deliver exceptional results." 
 categories:
   - Services
   - Consultation
 tags:
   - Botox
-  - Cash
+  - Dysport
+  - Aging
+  - Face 
+  - Neck
+  - Consultation
+  - Fillers 
+  - Beauty 
+  - non surgical facelift 
+  - non surgical treatment options
+  - youthful 
+  - specialized providers
+  - sagging
+  - wrinkles
 featured: true
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false
 ---
-
-| Attribute                      | Details                                                |
+You and one of our experienced providers will discuss your goals and expectations. After an assessment, the provider will then provide you different options for treatment plans and find the one that best fits your desired results.     
+| Attribute                     | Details                                      |
 |--------------------------------|--------------------------------------------------------|
-| **Duration**                   | Up to 15 minutes                                      |
-| **Purpose**                    | A complementary consultation to discuss Botox treatment options. |
-| **Physician's Role**           | Evaluate the patient's facial structure and skin condition. |
-| **Patient's Concerns**         | Encourage the patient to express their concerns and goals regarding Botox. |
+| **Duration**                   |  15 minutes                                      |
+| **Purpose**                    | A complementary consultation to discuss treatment options that align with the client's goals. |
+| **Physician's Role**           | Understand the client's goals and expectations and provide a treatment plan that works best for each individual client. |
+| **Patient's Concerns**         | Encourage the client to express their overall goals and concerns that they would like to be treated. |
 | **Medical History Review**     | Discuss any relevant medical history, allergies, or medications. |
-| **Treatment Options**          | Present different Botox treatment options and potential outcomes. |
-| **Expected Results**           | Explain the expected results and limitations of Botox treatment. |
-| **Risks and Side Effects**     | Educate the patient about potential risks and side effects. |
-| **Cost and Pricing**           | Provide information on the cost of Botox treatment and any available packages. |
+| **Treatment Options**          | Based on the goals and expectations of the client, along with the assessment from the provider, the client and provider will discuss the best treatment options to achieve the desired results. |
+| **Expected Results**           | Explain the expected results and limitations to the agreed upon treatment plan. |
+| **Risks and Side Effects**     | Educate the client about potential risks and side effects. |
+| **Cost and Pricing**           | Provide information on the cost of treatment and available packages. |
 | **Aftercare Instructions**     | Discuss post-treatment care and any necessary follow-up appointments. |
-| **Patient Questions**          | Address any questions or concerns the patient may have. |
-| **Informed Consent**           | Ensure the patient understands the treatment and obtains informed consent. |
-| **Scheduling Next Steps**      | If desired, schedule the Botox treatment appointment or further consultations. |
+| **Patient Questions**          | Address any questions or concerns the client may have. |
+| **Informed Consent**           | Ensure the client understands the treatment and obtains informed consent. |
+| **Scheduling Next Steps**      | If desired, the client may schedule future treatments and services while they are still in the office. |
 | **Documentation**              | Maintain records of the consultation for reference and legal purposes. |
-| **Patient Comfort**            | Ensure the patient is comfortable and informed throughout the process. |
-| **Follow-up Communication**    | Discuss how the patient can reach out with questions or concerns after the consultation. |
+| **Patient Comfort**            | Ensure the client is comfortable and informed throughout the process. |
+| **Follow-up Communication**    | Discuss how the client can reach out with questions or concerns after the consultation. |
 | **Cost of Consultation**       | Confirm if the consultation is complimentary or if there's a fee. |
 | **Cancellation Policy**        | Explain the clinic's policy for canceling or rescheduling consultations. |
 
