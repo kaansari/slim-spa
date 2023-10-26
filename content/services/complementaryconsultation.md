@@ -1,7 +1,7 @@
 ---
 draft: false
 date: "2023-05-11T22:35:06+05:31"
-title: "Complementary Consultation"
+title: "Beauty Consultation"
 description: "During your complimentary consultation, your goals and expectations will be reviewed by our experienced providers that will conduct a thorough assessment, and create a tailored treatment plan to deliver exceptional results." 
 categories:
   - Services
@@ -45,7 +45,7 @@ You and one of our experienced providers will discuss your goals and expectation
 | **Documentation**              | Maintain records of the consultation for reference and legal purposes. |
 | **Patient Comfort**            | Ensure the client is comfortable and informed throughout the process. |
 | **Follow-up Communication**    | Discuss how the client can reach out with questions or concerns after the consultation. |
-| **Cost of Consultation**       | Confirm if the consultation is complimentary or if there's a fee. |
+| **Cost of Consultation**       | Free with services rendered. Individual cost can vary. |
 | **Cancellation Policy**        | Explain the clinic's policy for canceling or rescheduling consultations. |
 
 
