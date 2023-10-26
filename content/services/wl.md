@@ -1,33 +1,40 @@
 ---
 draft: false
-title: 'Weight Management Service'
+title: 'Accute Care Tele-health services'
 description: 'Transform Your Health with Expert Obesity Medicine Services in Downtown Chicago'
 categories:
   - Services
+  - Telehealth
 tags:
-  - Botox
-  - Cheap
+  - Telehealth
+  - Non-Acute
   - Cash
 featured: true
-weight: 3
-icon: services/wl.svg
+weight: 4
+icon: services/telehealth.svg
 noTitle: false
 ---
-Come have a consultation with one of our Physicians who specialize in weight loss, and are Board Certified in Obesity Medicine.  Our specialist can help in weight loss.
+| Attribute                      | Details                                                                                                                                      |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Consultation Type**          | Non-acute medical consultation over telehealth                                |
+| **Common Conditions**          | Common cold, strep throat, viral infections, etc.                             |
+| **Duration**                   | Up to 30 minutes                                                             |
+| **Purpose**                    | Diagnosis, symptom assessment, treatment recommendations, and prescription, if necessary. |
+| **Setting**                    | Remote healthcare using telehealth technology.                               |
+| **Patient Participation**      | Patient initiates the appointment via a telehealth platform or phone call.  |
+| **Physician Involvement**      | A licensed physician conducts the consultation.                              |
+| **Medical History Review**     | Physician reviews the patient's medical history, if available.              |
+| **Symptom Assessment**         | Detailed discussion about the patient's symptoms, duration, and severity.    |
+| **Physical Examination**       | Virtual examination through visual inspection and patient-reported data.    |
+| **Diagnosis**                  | Physician provides a preliminary diagnosis based on the assessment.         |
+| **Laboratory Tests**           | Ordering of lab tests, if necessary, which may require an in-person visit.  |
+| **Prescription**               | Prescription of medications if required, sent directly to the pharmacy.     |
+| **Treatment Plan**             | Physician discusses treatment options, home care, and self-management.       |
+| **Follow-up Recommendations**   | Physician provides guidance on when to follow up if symptoms persist.       |
+| **Cost and Insurance**         | Discussion of costs and potential insurance coverage.                        |
+| **Patient Education**          | Patient is educated about the condition and how to manage it at home.       |
+| **Privacy and Security**       | Use of secure and HIPAA-compliant telehealth platforms to protect patient data. |
+| **Documentation**              | Physician documents the consultation and shares notes with the patient.    |
 
-## Tailored Solutions for Lasting Results:
-We believe in the power of personalized care. Through our highly specialized body composition analysis and comprehensive laboratory workup, we gain valuable insights into your unique needs. This enables us to design a weight loss management strategy that suits you best. From FDA-approved medications such as Mounjaro, Ozempic, and Wegovy to other effective interventions, we customize our approach to maximize your results.
-
-## Flexible Payment Options:
-Your health and well-being should never be compromised due to financial concerns. That's why we accept all commercial and major insurances, making our obesity medicine services accessible and affordable to a wide range of individuals. Your journey towards a healthier lifestyle shouldn't be hindered by financial constraints.
-
-## See Results, Fast:
-We understand that time is valuable, and you want to see progress quickly. With our targeted treatments and personalized approach, most patients begin to notice results within the first two treatments. Experience the motivation and confidence that comes with tangible progress towards your weight loss goals.
-
-## Convenient Locations and Telemedicine Options:
-Our services are conveniently available both in person and via telemedicine in Downtown Chicago. Whether you prefer face-to-face consultations or the convenience of virtual visits, we're here to accommodate your needs and provide seamless access to our expertise.
-
-## Conclusion:
-Ready to transform your health and achieve your weight loss goals? With our obesity medicine services led by board-certified physicians, personalized treatment plans, flexible payment options, and convenient locations, you have all the tools you need for success. Don't let excess weight hold you back any longer—take the first step towards a healthier, happier you today.
-
-Contact us now to schedule your consultation and start your journey towards a transformed lifestyle. Let our expertise and commitment to your well-being guide you to the best version of yourself. Together, we'll make your weight loss goals a reality.
+This table outlines the key attributes of a non-acute telehealth consultation for common conditions, ensuring that both patients and physicians can conduct the consultation effectively and securely. 
+#### In the case of emergency contact the nearest hospital or call 911.

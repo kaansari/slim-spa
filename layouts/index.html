@@ -13,17 +13,19 @@
 {{ define "main" }}
 
 
+
+
 {{ $products := where (where .Site.RegularPages "Type" "products") ".Params.featured" true }}
 {{if gt (len $products) 0}}
 <div class="container">
-<h2>Our Featured Products</h2>
-{{ range first 4 (sort $products ".Params.weight") }}
+<h2 class="value-heading">Our Featured Products</h2>
 
- 
+{{ range first 4 (sort $products ".Params.weight") }}
+<hr/>
 {{ partial "products/list/product-list-item.html" . }} 
 
-</div>
 {{ end }}
+</div>
 {{ end }}
 
 
@@ -31,11 +33,12 @@
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
 <div class="container">
+    
     <h2>Our Featured Services</h2>
 
 {{ range (sort $services ".Params.weight") }}
 
- 
+<hr/>
 {{ .Render "summary" }}
 
 

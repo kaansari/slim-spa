@@ -1,0 +1,15 @@
+<div class="mySlides fade">
+      {{ partial "responsive-image"
+      (dict
+      "context" .
+      "filename" .Params.promoimage
+      "page" ($.Page.File.Path)
+      "altText" ($.Params.title)
+      "nolink" "false"
+      )
+      }}
+      <div class="text">{{.Params.title}}</div>
+      <div class="subheading1">{{ .Params.subheading1}}</div>
+      <div class="subheading2">{{ .Params.subheading2}}</div>
+</div>
+    

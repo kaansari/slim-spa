@@ -54,8 +54,6 @@
         
 {{<responsive-image filename="img/botox.jpeg" alt="Facial Transformation with Botox">}}
 
-🌟 Discover the Key to Wrinkle-Free Skin! 🌟
-
 Say goodbye to pesky wrinkles and hello to a more youthful you with our top-notch Botox from 
 
 1. Dysport

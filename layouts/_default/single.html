@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article>
+<article class="container">
   {{/*
       Another frontmatter field `noTitle: true` prevents
       the page title from showing up here
@@ -15,5 +15,19 @@
     {{/* This is the markdown file content */}}
     {{ .Content }}
   </main>
+
+  <nav class="row">
+    <hr>
+    <h1>Categories</h1>
+    <ul >
+
+        </li>
+        {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title | title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
 </article>
 {{ end }}

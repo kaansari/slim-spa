@@ -1,14 +1,14 @@
 
 <header>
-    <nav>
-      <div>
-        <a href="/">
-        <img  src="/hero/logo.svg" alt="our logo" height="30">
+   <div class="row">
+      <div class="u-pull-left">
+       <a class="" href="/">
+        <div class="value-heading" style="color: #000;">NOON</div>
       </a>
       </div>
 
-
-      
+     
+      <nav class="u-pull-right">
       <div class="hamburger-menu">
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
@@ -24,17 +24,10 @@
         {{ end }}
       </ul>
     </nav>
-  
-  <div style="background-color: #000;">          
-    CALL :<a style="color: #ffff;" href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
-   
-
-      <a href="{{ .Params.bookingURL }}">
-        <button style="color: #000;">Make Appointment</button>
-            </a>
 
 
-    </div>
+
+  </div>
 
   </header>
   <script>

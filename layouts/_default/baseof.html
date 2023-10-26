@@ -1,112 +1,155 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head>
+
+<head>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600&display=swap" rel="stylesheet" type="text/css">
 
 
-    {{/* Cricital CSS & JS Bundles */}}
-    {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "css") }}
-    {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "js") }}
 
-    <meta charset="utf-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge,chrome=1"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <meta
-      name="HandheldFriendly"
-      content="true"
-    />
+  {{/* Cricital CSS & JS Bundles */}}
+  {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "css") }}
+  {{ partial "webpack-assets" (dict "context" . "isCritical" true "assetType" "js") }}
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="true" />
 
 
-    {{/* 
+  {{/*
 
-      Local business listing defined in the data folder in json format
-    
-   */}}
+  Local business listing defined in the data folder in json format
+
+  */}}
 
 
-   <script type="application/ld+json">
+  <script type="application/ld+json">
     {{ .Site.Data.localbusiness}}
   </script>
 
-    {{/*
-      This lets us add `noIndex: true` to the frontmatter of
-      a markdown page and have it be ignored by search crawlers
-    */}}
-    {{ if .Params.noIndex }}
-    <meta
-      name="ROBOTS"
-      content="NOINDEX, NOFOLLOW"
-    />
-    {{ end }}
-
-    {{/*
-      We can override the title in a template,
-      but this is a good default
-    */}}
-    {{ block "title" . }}
-    <title
-      >{{ if not .IsHome }} {{ .Title }} | {{ end }}{{ .Site.Title
-      }}</title
-    >
-    {{ end }}
-
-    {{/* Here is another block we can override later */}}
-    {{ block "description" . }}
-    {{/*
-      We are using the Hugo generated page
-      summary for meta description
-    */}}
-    <meta
-      name="description"
-      content="{{ .Summary }}"
-    />
-    {{ end }}
-
-    {{/*
-      This empty block lets us add to the
-      document head in another template
-    */}}
-    {{ block "head" . }} {{ end }}
-
-    {{/* Sitemap is generated automatically */}}
-    <link
-      rel="sitemap"
-      type="application/xml"
-      href="/sitemap.xml"
-    />
-
-    {{/* Non-critical CSS Bundles go at the end of `head` */}}
-    {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "css") }}
-  </head>
+  {{/*
+  This lets us add `noIndex: true` to the frontmatter of
+  a markdown page and have it be ignored by search crawlers
+  */}}
+  {{ if .Params.noIndex }}
+  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  {{ end }}
 
   {{/*
-    This body class is helpful in figuring
-    out which template is being loaded
+  We can override the title in a template,
+  but this is a good default
   */}}
-  <body style="padding-top: 60px; margin: 0;"
-    class="type-{{ .Type }}
+  {{ block "title" . }}
+  <title>{{ if not .IsHome }} {{ .Title }} | {{ end }}{{ .Site.Title
+    }}</title>
+  {{ end }}
+
+  {{/* Here is another block we can override later */}}
+  {{ block "description" . }}
+  {{/*
+  We are using the Hugo generated page
+  summary for meta description
+  */}}
+  <meta name="description" content="{{ .Summary }}" />
+  {{ end }}
+
+  {{/*
+  This empty block lets us add to the
+  document head in another template
+  */}}
+  {{ block "head" . }} {{ end }}
+
+  {{/* Sitemap is generated automatically */}}
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  {{/* Non-critical CSS Bundles go at the end of `head` */}}
+  {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "css") }}
+</head>
+
+{{/*
+This body class is helpful in figuring
+out which template is being loaded
+*/}}
+
+<body class="type-{{ .Type }}
     {{ if .IsPage }}
       page-single
     {{ else }}
       page-list
-    {{ end }}"
-  >
-    {{ partial "header" . }}
-
-    {{/* This block is for the main page content */}}
-    {{ block "main" . }} {{ end }}
-
-    {{ partial "footer" . }}
+    {{ end }}">
+  {{ partial "header" . }}
 
 
-    {{/* Non-critical JS Bundles go at the end of `body` */}}
-    {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "js") }}
+
+  <div class="slideshow-container">
+
+    {{ $promotions := where (where .Site.RegularPages "Type" "promotions") ".Params.featured" true }}
+    {{if gt (len $promotions) 0}}
+
+    {{ range (sort $promotions ".Params.weight") }}
+
+    {{ partial "promotions/list/list-item.html" . }}
+
+    {{ end }}
+
+    {{ end }}
+
+  </div>
+
+{{if gt (len $promotions) 0}}
+<div style="text-align:center">
+  {{ range (sort $promotions ".Params.weight") }}
+  <span class="dot"></span>
+  {{ end }}
+
+</div>
+<script>
+// for the slide show
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+
+
+</script>
+{{ end }}
+
+  {{/* This block is for the main page content */}}
+  {{ block "main" . }}
+
   
-    {{ partial "google-analytics.html" . }}
-  </body>
+  {{ end }}
+
+  {{ partial "footer" . }}
+
+
+  {{/* Non-critical JS Bundles go at the end of `body` */}}
+  {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "js") }}
+
+  {{ partial "google-analytics.html" . }}
+</body>
+
 </html>

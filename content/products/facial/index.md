@@ -102,7 +102,7 @@
 }
 ----
 
-## 🌟 Discover the Magic of Professional Facials in Downtown Chicago Loop! 🌟
+Discover the Magic of Professional Facials in Downtown Chicago Loop! 🌟
 
 Are you ready to unlock the secrets to radiant and youthful skin? Look no further! Our expert team of certified aestheticians is here to provide you with a range of rejuvenating facial services tailored to your needs. With our unique blend of advanced techniques and state-of-the-art technology, we guarantee exceptional results that will leave you feeling refreshed, revitalized, and ready to take on the world!
 
