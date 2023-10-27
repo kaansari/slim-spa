@@ -1,5 +1,5 @@
 {
-    "title": "Botox",
+    "title": "Dysport Botox",
     "featured": true,
     "brand": {
     "@type": "Brand",
@@ -12,9 +12,9 @@
     "tags": ["cosmetic procedures", "anti-aging", "facial rejuvenation", "wrinkle treatment"],
     "categories": ["Injectables", "Botox", "MedSpa"],
     "images": ["img/2.jpeg"],
-    "thumbnailImage": "img/thumbnail.jpeg",
-    "actualPrice": "14",
-    "comparePrice": "15",
+    "thumbnailImage": "img/model5.png",
+    "actualPrice": "15",
+    "comparePrice": "4",
     "inStock": "true",
     "availability": "InStock",
     "name": "Botox",
@@ -54,10 +54,8 @@
         
 {{<responsive-image filename="img/botox.jpeg" alt="Facial Transformation with Botox">}}
 
-Say goodbye to pesky wrinkles and hello to a more youthful you with our top-notch Botox from 
+Say goodbye to pesky wrinkles and hello to a more youthful you with our top-notch Botox from **Dysport**
 
-1. Dysport
-2. Xeomin 
 
 Our highly trained, board-certified professionals are here to help you prevent wrinkle formation and smooth out facial lines, all in the heart of Downtown Chicago Loop.
 
@@ -65,9 +63,9 @@ Our highly trained, board-certified professionals are here to help you prevent w
 
 We understand the importance of entrusting your skin to experts. That's why we offer the highest quality results by delivering injections with precision and skill. Our commitment to excellence ensures you'll receive the exceptional care you deserve.
 
-💲 Unbeatable Offer: Just $14 per unit 💲
+💲 Unbeatable Offer: Just $4 per unit 💲
 
-Get the best value for your money! Our affordable pricing of $14 per unit makes achieving your desired results even more accessible. While insurance doesn't cover this service, we provide flexible payment plans to fit your budget.
+Get the best value for your money! 
 
 ⏱️ Instant Results, Minimal Downtime ⏱️
 

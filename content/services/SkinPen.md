@@ -1,6 +1,6 @@
 ---
 draft: false
-date: "2023-05-11T22:35:06+05:31"
+date: "2023-09-11T22:35:06+05:31"
 title: "SkinPen Microneedling"
 description: "During treatment, our skilled providers will use a technique that causes controlled punctures in the skin. This causes your body's natural immune response to take over and produce more collagen. This is the body's natural would healing response, stimulating the production of collagen and elastin, for a more youthful appearance."
 categories:
@@ -23,7 +23,7 @@ tags:
   - skin transformation 
 
 featured: true
-weight: 2
+weight: 1
 icon: services/aesthetic.svg
 noTitle: false
 ---

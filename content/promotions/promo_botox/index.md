@@ -5,7 +5,7 @@ title: "$4/unit Dysport"
 subheading1: "Grand Opening Sale"
 subheading2: "Expires Nov 30th"
 
-description: "During the treatment, one of our skilled providers gently moves the Microneedling device over the skin, creating micro-injuries. These tiny injuries activate the body's natural wound healing response, stimulating the production of collagen and elastin. Following the Microneedling session, the skin may appear slightly red and swollen. Rest assured, these effects are temporary and typically subside within a few days."
+description: "Grand Opening Special Offer. $4/unit Dysport on all injectable treatments and additionl 10% off on advance internet purchase "
 categories:
   - Promotions
 tags:
@@ -13,7 +13,12 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/1.jpeg
+promoimage: img/model1.png
 noTitle: false
 ---
-
+| Attribute                   | Detail                                                                      |
+| --------------------------- | --------------------------------------------------------------------------- |
+| **Offer Name**              | Grand Opening Special Offer                                                |
+| **Offer Details**           | $4/unit Dysport on all injectable treatments                                 |
+| **Offer Expiration Date**   | December 31, 2023                                                           |
+| **Additional Discount**     | Get an extra 10% off when advance purchasing online                                 |

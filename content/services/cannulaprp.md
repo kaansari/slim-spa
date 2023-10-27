@@ -21,7 +21,7 @@ tags:
   - minimally invasive
   - Microneedling
 featured: true
-weight: 2
+weight: 1
 icon: services/aesthetic.svg
 noTitle: false
 ---

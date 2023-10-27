@@ -5,7 +5,7 @@ title: "40% off on IV"
 subheading1: "Grand Opening Sale"
 subheading2: "Expires Nov 30th"
 
-description: "During the treatment, one of our skilled providers gently moves the Microneedling device over the skin, creating micro-injuries. These tiny injuries activate the body's natural wound healing response, stimulating the production of collagen and elastin. Following the Microneedling session, the skin may appear slightly red and swollen. Rest assured, these effects are temporary and typically subside within a few days."
+description: "Grand opening IV Treatment special, 40% off on all IV treatments."
 categories:
   - Promotions
 tags:
@@ -13,7 +13,15 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/1.jpeg
+promoimage: img/model2.png
 noTitle: false
 ---
-
+| Attribute                               | Detail                                                                         |
+| --------------------------------------- | ------------------------------------------------------------------------------ |
+| **Offer Name**                          | Grand Opening IV Treatment Special                                          |
+| **Discount Percentage**                 | 40% off on all IV treatments                                                |
+| **Offer Expiration Date**               | December 31, 2023                     |
+| **Additional Internet Discount**       | Get an extra 10% off when you advance purchase online |
+| **Online Promo Code**                   | Use promo code: ONLINE10 at checkout to avail the internet discount           |
+| **Terms and Conditions**                | - Offer valid until December 31, 2023.                                      |
+|                                         | - Internet discount applies with promo code: ONLINE10.                      |

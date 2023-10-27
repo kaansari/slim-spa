@@ -31,12 +31,15 @@
         {{/*
           Now we need to show each posts info and link to it.
         */}}
+
         <article class="row" >
-         
+          <hr>
             <a class="item" style="color: inherit;" href="{{ .RelPermalink }}">
-            <h2> {{.Title}}</h2></div>
+            <p class="value-heading"> {{.Title}}</p>
             </a>
-          {{ .Summary }}
+            <p class="value-heading"> {{.Params.description}}</p>
+       
+          
         </article>
       {{ end }}
 
