@@ -13,7 +13,7 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/model1.png
+promoimage: img/dysport.png
 noTitle: false
 ---
 | Attribute                   | Detail                                                                      |

@@ -12,7 +12,7 @@
     "tags": ["cosmetic procedures", "anti-aging", "facial rejuvenation", "wrinkle treatment"],
     "categories": ["Injectables", "Botox", "MedSpa"],
     "images": ["img/2.jpeg"],
-    "thumbnailImage": "img/model5.png",
+    "thumbnailImage": "img/model.png",
     "actualPrice": "15",
     "comparePrice": "4",
     "inStock": "true",

@@ -12,6 +12,6 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/model3.png
+promoimage: img/loc.png
 noTitle: false
 ---
