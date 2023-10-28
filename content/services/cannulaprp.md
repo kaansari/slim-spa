@@ -2,7 +2,7 @@
 draft: false
 date: "2023-05-11T22:35:06+05:31"
 title: "PRP"
-description: "PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive, rejuvenation with minimal downtime. Administerng PRP under the skin promotes collagen production, reduces fine lines, wrinkles, dark circles, scars, and enhances skin texture, providing natural and long-lasting beauty enhancements."
+description: "PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive, rejuvenation with minimal downtime. Administering PRP under the skin promotes collagen production, reduces fine lines, wrinkles, dark circles, scars, and enhances skin texture, providing natural and long-lasting beauty enhancements."
 categories:
   - Services
   - non-surgical

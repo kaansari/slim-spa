@@ -1,7 +1,7 @@
 ---
 draft: false
 title: 'IV Therapy'
-description: 'IV therapy is an easy way to help with common concerns such as, dehydration, nutrient and electrolyte replacement, illness, weakness, and increasinng energy levels.'
+description: 'IV therapy is an easy way to help with common concerns such as, dehydration, nutrient and electrolyte replacement, illness, weakness, and increasing energy levels.'
 categories:
   - Services
   - non-surgical
@@ -14,7 +14,7 @@ tags:
   - IV therapy 
   - Nutrients
   - B12
-  - Elecyrolytes
+  - Electrolytes
   - Treatment
   - Dehydration 
   - Sick 
