@@ -40,7 +40,7 @@ caches:
 languageCode: 'en-us'
 
 # Site title
-title: 'Sculpt & Glow'
+title: 'NooN'
 copyright: 'Khalid Ansari'
 
 # Build timeout, may need to increase if using a lot of image processing
