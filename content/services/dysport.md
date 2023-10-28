@@ -2,7 +2,7 @@
 draft: false
 date: "2023-10-11T22:35:06+05:31"
 title: "Dysport/Botox"
-description: "We specialize in treating common areas using neurotoxins such as Botox and Dysport to help with the aging process and reduce the look of fine lines and wrinkles, as well as providing headache and migraine releif."
+description: "We specialize in treating common areas using neurotoxins such as Botox and Dysport to help with the aging process and reduce the look of fine lines and wrinkles, as well as providing headache and migraine relief."
 categories:
   - Services
   - Injectables
