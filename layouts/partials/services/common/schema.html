@@ -1,0 +1,18 @@
+{{ $b_schema := .Site.Data.localbusiness }}
+{{ $serviceOutput :=  .Site.Data.serviceOutput }}
+{{ $serviceOutput = merge $serviceOutput (dict "url" .Permalink)}}
+
+
+{{ with .Params }}
+
+{{ $b_schema = merge $b_schema (dict "serviceType" .title)}}
+{{ $serviceOutput = merge $serviceOutput (dict "name" .title)}}
+{{ $serviceOutput = merge $serviceOutput (dict "description" .description)}}
+{{ $serviceOutput = merge $serviceOutput (dict "image" .thumbnail)}}
+
+{{ $b_schema = merge $b_schema (dict "serviceOutput" $serviceOutput)}}
+
+<script type="application/ld+json">
+  {{$b_schema}}
+</script>
+  {{ end }}

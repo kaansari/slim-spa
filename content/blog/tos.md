@@ -3,7 +3,7 @@ draft: false
 title: 'Cancelation Policy'
 description: 'Cancelation Policy'
 categories:
-  - Posts
+  - Notices
 tags:
   - Cancelation Policy
   - Policy

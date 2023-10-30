@@ -1,18 +1,24 @@
-<footer class="footer">
-    <div class="footer-social">
-      {{ if .Site.Data.social }}
-        {{ range .Site.Data.social }}
-          <a href="{{ .link }}" target="_blank">
-            <img class="social-icons" src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
-          </a>
-        {{ end }}
+<footer>
+
+  <div>
+    {{ if .Site.Data.social }}
+      {{ range .Site.Data.social }}
+        <a href="{{ .link }}" target="_blank">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
+        </a>
       {{ end }}
-    </div>
-    <ul class="footer-links">
+    {{ end }}
+</div>
+
+   
+
+    <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/contact">Contact</a></li>
       <li><a href="/privacy-policy">Privacy Policy</a></li>
+      {{ range first 10 .Site.Taxonomies.tags.ByCount }}
+      <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a> ({{ .Count }})</li>
+    {{ end }}
     </ul>
-    
-    <p class="footer-text">© 2023 {{ .Site.Data.localbusiness.name }}</p>
+    <span class="footer-text">© 2023 {{ .Site.Data.localbusiness.name }}</span>
 </footer>

@@ -29,10 +29,18 @@
 
   */}}
 
+  {{ $b_schema := .Site.Data.localbusiness }}
+  
+  {{ if eq .Type "products" }}
+  {{ partial "products/common/schema.html" . }} 
+  {{ else if eq .Type "services" }}
+  {{ partial "services/common/schema.html" . }} 
+{{ else }}
+<script type="application/ld+json">
+  {{ $b_schema}}
+</script>
+{{ end }}
 
-  <script type="application/ld+json">
-    {{ .Site.Data.localbusiness}}
-  </script>
 
   {{/*
   This lets us add `noIndex: true` to the frontmatter of
@@ -46,6 +54,9 @@
   We can override the title in a template,
   but this is a good default
   */}}
+
+
+  
   {{ block "title" . }}
   <title>{{ if not .IsHome }} {{ .Title }} | {{ end }}{{ .Site.Title
     }}</title>
@@ -58,8 +69,6 @@
   summary for meta description
   */}}
   <meta name="description" content="{{ .Params.description }}" />
-  <meta name="google-site-verification" content="rMurJIKJQ1Q5hcXCQhjvlZqBIgsxmotGZE7SQsoiaI0">
-  <meta name="robots" content="noindex,nofollow">
   {{ end }}
 
   {{/*
@@ -139,6 +148,8 @@ function showSlides() {
 </script>
 {{ end }}
 
+
+
   {{/* This block is for the main page content */}}
   {{ block "main" . }}
 
@@ -152,6 +163,9 @@ function showSlides() {
   {{ partial "webpack-assets" (dict "context" . "isCritical" false "assetType" "js") }}
 
   {{ partial "google-analytics.html" . }}
+
+
+
 </body>
 
 </html>

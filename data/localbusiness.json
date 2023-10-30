@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "NooN - MedSpa & Weight Managment of Chicago",
+  "@type": "MedicalBusiness",
+  "name": "NooN MedSpa",
   "description": "We offer a range of services at our med spa to help you look and feel your best.",
   "address": {
     "@type": "PostalAddress",
@@ -16,7 +16,7 @@
     "latitude": "41.8781",
     "longitude": "-87.6298"
   },
-  "telephone": "+1-312-285-2039",
+  "telephone": "+1-224-391-2610",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -27,7 +27,7 @@
         "Thursday",
         "Friday"
       ],
-      "opens": "09:00",
+      "opens": "10:00",
       "closes": "18:00"
     },
     {
@@ -35,9 +35,37 @@
       "dayOfWeek": [
         "Saturday"
       ],
-      "opens": "10:00",
+      "opens": "11:00",
       "closes": "16:00"
     }
   ],
-  "url": "https://www.noon-spa.com"
+  "url": "https://www.noon-spa.com",
+  "image": "https://www.noon-spa.com/hero/logo.png",
+  "priceRange": "$$$",
+  "sameAs": [
+    "https://www.facebook.com/yourmedspa",
+    "https://www.instagram.com/yourmedspa",
+    "https://twitter.com/yourmedspa"
+  ],
+  "hasMap": "https://www.google.com/maps/place/Your+Medical+Spa",
+  "specialty": [
+    {
+      "@type": "MedicalSpecialty",
+      "name": "Medical Spa"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "12.3456",
+      "longitude": "78.9012"
+    },
+    "geoRadius": "5 miles"
+  },
+  "serviceType": "Dysport Botox Injection, PRP Microneedling, IV Therapy, SkinPen Microneedling, Weight Management",
+  "servicePhone": "+1-224-391-2610",
+  "serviceSmsNumber": "+1-224-391-2610",
+  "serviceEmail": "info@yourmedicalspa.com",
+  "serviceUrl": "https://www.noon-spa.com/services"
 }

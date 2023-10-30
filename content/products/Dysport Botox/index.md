@@ -1,6 +1,7 @@
 {
-    "title": "Dysport Botox",
-    "featured": true,
+    "draft" : "true",
+    "title": "Dysport $50 Reward for Free",
+    "featured": false,
     "brand": {
     "@type": "Brand",
     "name": "Botox, Dysport, Xeomin"
@@ -10,7 +11,7 @@
     "date": "2023-05-11T22:35:06+05:30",
     "genre": "Beauty",
     "tags": ["cosmetic procedures", "anti-aging", "facial rejuvenation", "wrinkle treatment"],
-    "categories": ["Injectables", "Botox", "MedSpa"],
+    "categories": ["Products"],
     "images": ["img/2.jpeg"],
     "thumbnailImage": "img/model.png",
     "actualPrice": "15",
@@ -26,6 +27,7 @@
     "price": "15",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
+    "priceValidUntil" : "2023-12-31",
     "seller": {
       "@type": "Organization",
       "name": "Your Business Name"

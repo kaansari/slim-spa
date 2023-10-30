@@ -1,0 +1,12 @@
+{
+    "@type": "MedicalProcedure",
+    "name": "Botox Injection",
+    "description": "Botox injections to reduce wrinkles and fine lines.",
+    "url": "https://www.yourmedicalspa.com/botox",
+    "image": "https://www.yourmedicalspa.com/images/botox.jpg",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://www.noon-spa.com/contact",
+      "servicePhone": "+1-224-391-2610"
+    }
+}

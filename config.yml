@@ -5,6 +5,8 @@ baseURL: 'https://www.noon-spa.com'
 params:
   description: 'NooN Spa and Weight Loss management clinic in the Chicago Loop'
 
+
+
 # Markdown Settings
 markup:
   tableOfContents:
@@ -41,7 +43,7 @@ languageCode: 'en-us'
 
 # Site title
 title: 'NooN'
-copyright: 'Khalid Ansari'
+copyright: 'NooN Spa'
 
 # Build timeout, may need to increase if using a lot of image processing
 timeout: 10m

@@ -24,6 +24,7 @@ featured: true
 weight: 1
 icon: services/aesthetic.svg
 noTitle: false
+thumbnail : service/botox.png
 ---
 
 PRP (Platelet-Rich Plasma) treatment offers non-surgical, minimally invasive rejuvenation with minimal downtime. By using a blunt-tipped cannula for precise injections, it promotes collagen production, reduces fine lines and scars, and enhances skin texture, providing natural and long-lasting beauty enhancements.
