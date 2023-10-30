@@ -14,7 +14,10 @@
   <main id="main">
     {{/* This is the markdown file content */}}
     {{ .Content }}
-  
+    CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
+  <a href="{{ .Site.Data.localbusiness.serviceUrl }}">
+    <button>Make Appointment</button>
+  </a>
   </main>
 
   <nav class="row">

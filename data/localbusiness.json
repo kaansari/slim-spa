@@ -47,25 +47,25 @@
     "https://www.instagram.com/yourmedspa",
     "https://twitter.com/yourmedspa"
   ],
-  "hasMap": "https://www.google.com/maps/place/Your+Medical+Spa",
+  "hasMap": "https://www.google.com/maps/place/NOON+-+IV,+Botox,+PRP+and+Aesthetics/@41.8655318,-87.6593999,13z/data=!4m10!1m2!2m1!1sNooN+IV!3m6!1s0x880e2da0895cb4db:0x28aa18c4114c93a0!8m2!3d41.8786868!4d-87.6273338!15sCgdOb29OIElWkgELbWVkaWNhbF9zcGHgAQA!16s%2Fg%2F11h0vy_lq4",
   "specialty": [
     {
       "@type": "MedicalSpecialty",
-      "name": "Medical Spa"
+      "name": "NooN MedSpa"
     }
   ],
   "serviceArea": {
     "@type": "GeoCircle",
     "geoMidpoint": {
       "@type": "GeoCoordinates",
-      "latitude": "12.3456",
-      "longitude": "78.9012"
+      "latitude": "41.87875071192685",
+      "longitude": "-87.62675442214655"
     },
     "geoRadius": "5 miles"
   },
   "serviceType": "Dysport Botox Injection, PRP Microneedling, IV Therapy, SkinPen Microneedling, Weight Management",
   "servicePhone": "+1-224-391-2610",
   "serviceSmsNumber": "+1-224-391-2610",
-  "serviceEmail": "info@yourmedicalspa.com",
-  "serviceUrl": "https://www.noon-spa.com/services"
+  "serviceEmail": "info@noon-spa.com",
+  "serviceUrl": "https://squareup.com/appointments/book/tvu57qe64ksjce/LH6MKHHS71HNS/start"
 }
