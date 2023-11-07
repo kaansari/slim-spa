@@ -19,7 +19,8 @@ tags:
   - aging 
   - non surgical facelift
   - medspa 
-featured: true
+featured: false
+manu_service: true
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false

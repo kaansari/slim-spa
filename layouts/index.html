@@ -3,8 +3,16 @@
 
 {{ define "main" }}
 
+<hr/>
 
+<div class="container">
+CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
 
+            <a href="{{ .Site.Data.localbusiness.serviceUrl }}">
+              <button>Make Appointment</button>
+            </a>
+
+        </div>
 
 {{ $products := where (where .Site.RegularPages "Type" "products") ".Params.featured" true }}
 {{if gt (len $products) 0}}

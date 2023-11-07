@@ -20,7 +20,8 @@ tags:
   - Sick 
   - Weak 
   - Energy 
-featured: true
+featured: false
+manu_service: true
 weight: 1
 icon: services/medspa.svg
 noTitle: false

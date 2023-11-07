@@ -2,6 +2,16 @@
 @import 'css/skeleton.css';
 
 
+.logo {
+
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffff;
+  padding: 5px;
+  
+
+}
+.logo a{ color: #fff;}
+
 
 header {
   position: fixed;
@@ -9,6 +19,7 @@ header {
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  color: #ffff;
   z-index: 999; /* Set a higher z-index to ensure the header appears above other elements */
 
 }
@@ -16,6 +27,7 @@ header {
 header a {
 
   text-decoration: none; /* Remove underlines from links */
+  
 }
 
 .hamburger-menu {
@@ -28,7 +40,7 @@ header a {
 .hamburger-line {
   width: 30px;
   height: 4px;
-  background-color: #333;
+  background-color: #fff;
   margin: 4px 0;
 }
 
@@ -91,15 +103,15 @@ header a {
 
 /* Styling for the footer */
 footer {
-  background-color: #000; /* Black background */
-  color: white; /* White text */
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 0px; /* Adjust the padding as needed */
   width: 100%;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Style for the footer unordered list (ul) */
 footer ul {
-  padding: 0;
+  padding: 5px;
 }
 
 /* Style for the list items (li) in the footer */
@@ -110,14 +122,22 @@ footer li {
 
 /* Style for links within the footer */
 footer a {
-  text-decoration: none; /* Remove underlines from links */
+  text-decoration: none;
+  color: inherit;
+  
+  
+}
+footer .social{
+  margin-right: 5px;
 }
 
 /* Style for links on hover within the footer */
 footer a:hover {
-   
   text-decoration: underline; /* Add underline on hover for links */
 }
+
+footer hr {height: 1px;margin-left: auto;margin-right: auto;background-color:#666;border: 0 none;margin-top: 30px;margin-bottom:5px;}
+
 
 
 
@@ -184,6 +204,7 @@ top: 30px;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 }
 
 .active {

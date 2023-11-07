@@ -9,7 +9,7 @@ tags:
   - Telehealth
   - Non-Acute
   - 
-featured: true
+featured: false
 weight: 4
 icon: services/telehealth.svg
 noTitle: false

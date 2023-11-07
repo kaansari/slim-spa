@@ -21,7 +21,8 @@ tags:
   - specialized providers
   - sagging
   - wrinkles
-featured: true
+featured: false
+manu_service: true
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false

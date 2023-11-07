@@ -20,7 +20,8 @@ tags:
   - dark circles 
   - minimally invasive
   - Microneedling
-featured: true
+featured: false
+manu_service: true
 weight: 1
 icon: services/aesthetic.svg
 noTitle: false

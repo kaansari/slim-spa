@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="container">
+  <hr/>
   {{/*
       Another frontmatter field `noTitle: true` prevents
       the page title from showing up here
@@ -13,6 +14,7 @@
 
   <main id="main">
     {{/* This is the markdown file content */}}
+
     {{ .Content }}
     CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
   <a href="{{ .Site.Data.localbusiness.serviceUrl }}">

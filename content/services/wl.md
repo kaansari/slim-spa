@@ -9,7 +9,8 @@ tags:
   - Telehealth
   - Non-Acute
   - Cash
-featured: true
+featured: false
+manu_service: true
 weight: 4
 icon: services/wl.svg
 noTitle: false

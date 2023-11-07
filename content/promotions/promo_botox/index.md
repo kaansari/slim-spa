@@ -5,7 +5,7 @@ title: "$4/unit Dysport"
 subheading1: "Grand Opening Sale"
 subheading2: "Expires Nov 30th"
 
-description: "Grand Opening Special Offer. $4/unit Dysport on all injectable treatments and additionl 10% off on advance internet purchase "
+description: "Grand Opening Special Offer. $4/unit Dysport on all injectable treatments and additional 10% off on advance internet purchase "
 categories:
   - Promotions
 tags:

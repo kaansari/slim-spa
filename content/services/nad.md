@@ -12,7 +12,7 @@ tags:
   - NAD
   - Beauty Injections
   - Injections
-featured: true
+featured: false
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false

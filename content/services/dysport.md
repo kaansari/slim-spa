@@ -32,7 +32,8 @@ tags:
   - neck bands
   - brow lift
   - jawline slimming 
-featured: true
+featured: false
+manu_service: true
 weight: 1
 icon: services/aesthetic.svg
 thumbnail : service/botox.png

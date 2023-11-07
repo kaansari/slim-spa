@@ -1,14 +1,6 @@
 <footer>
-
-  <div>
-    {{ if .Site.Data.social }}
-      {{ range .Site.Data.social }}
-        <a href="{{ .link }}" target="_blank">
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
-        </a>
-      {{ end }}
-    {{ end }}
-</div>
+  <hr/>
+ 
 
    
 
@@ -20,5 +12,14 @@
       <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a> ({{ .Count }})</li>
     {{ end }}
     </ul>
-    <span class="footer-text">© 2023 {{ .Site.Data.localbusiness.name }}</span>
+    <div class="social">
+      {{ if .Site.Data.social }}
+        {{ range .Site.Data.social }}
+          <a href="{{ .link }}" target="_blank">
+            <img src="{{ .image | relURL }}" alt="{{ .name }}" width="20" height="20">
+          </a>
+        {{ end }}
+      {{ end }}
+  </div>
+    <span>© 2023 {{ .Site.Data.localbusiness.name }}</span>
 </footer>
