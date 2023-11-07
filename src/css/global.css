@@ -2,17 +2,6 @@
 @import 'css/skeleton.css';
 
 
-.logo {
-
-  font-family: 'Times New Roman', Times, serif;
-  color: #ffff;
-  padding: 5px;
-  
-
-}
-.logo a{ color: #fff;}
-
-
 header {
   position: fixed;
   top: 0;
@@ -23,90 +12,40 @@ header {
   z-index: 999; /* Set a higher z-index to ensure the header appears above other elements */
 
 }
-/* Style for links within the footer */
-header a {
 
-  text-decoration: none; /* Remove underlines from links */
-  
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.hamburger-menu {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  
-}
-
-.hamburger-line {
-  width: 30px;
-  height: 4px;
-  background-color: #fff;
-  margin: 4px 0;
-}
-
-.menu {
-  display: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.topnav a {
+  float: center ;
+  color: #f2f2f2;
   text-align: center;
-}
-
-.menu li {
-  margin-bottom: 10px;
-}
-
-.menu li a {
-  color: #ffffff;
+  padding: 3px 5px;
   text-decoration: none;
-  transition: color 0.3s;
+  font-size: 14px;
 }
 
-.menu li a:hover {
-  color: #FFD700;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.menu li.active a {
-  color: #FFD700;
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: left;
+  background-color: #04AA6D;
+  color: white;
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 2600px) {
-  .hamburger-menu {
-    display: block;
-  }
-  .menu {
-    display: none;
-    background-color: #333333;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .menu li {
-    margin-bottom: 10px;
-  }
-
-  .menu li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  /* Show Menu on Click */
-  .menu.show {
-    display: block;
-  }
-}
 
 /* Styling for the footer */
 footer {
   padding: 0px; /* Adjust the padding as needed */
   width: 100%;
   text-transform: capitalize;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Style for the footer unordered list (ul) */

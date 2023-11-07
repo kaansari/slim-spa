@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'IV Therapy'
+title: 'IV'
 description: 'IV therapy is an easy way to help with common concerns such as, dehydration, nutrient and electrolyte replacement, illness, weakness, and increasing energy levels.'
 categories:
   - Services

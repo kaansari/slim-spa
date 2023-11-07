@@ -1,36 +1,23 @@
 
 <header>
-   
-      <div class="u-pull-left">
-       <a class="" href="/">
-        <div class="logo">NOON</div>
-      </a>
-      </div>
 
      
-      <nav>
-      <div class="hamburger-menu u-pull-right">
-        <div class="hamburger-line"></div>
-        <div class="hamburger-line"></div>
-        <div class="hamburger-line"></div>
-      </div>
-      <ul class="menu">
-        {{/* Loop through all nav items */}}
-        {{ range site.Data.nav }}
-          <li>
-            {{/* .url and .title are coming from the nav.yml file */}}
-            <a href="{{ .url }}">{{ .title }}</a>
-          </li>
-        {{ end }}
-      </ul>
+      <nav class="topnav" >
+      
+        <a class="split" href="/">
+          NOON
+        </a>
+
+        {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.manu_service" true }}
+{{if gt (len $services) 0}}
+
+{{ range (sort $services ".Params.weight") }}
+<a href="{{ .RelPermalink }}">
+{{ .Params.title }}
+</a>
+
+{{ end }}
+{{ end }}
     </nav>
 
   </header>
-  <script>
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-const menu = document.querySelector('.menu');
-
-hamburgerMenu.addEventListener('click', () => {
-  menu.classList.toggle('show');
-});
-  </script>

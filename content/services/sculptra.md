@@ -20,7 +20,7 @@ tags:
   - non surgical facelift
   - medspa 
 featured: false
-manu_service: true
+manu_service: false
 weight: 2
 icon: services/aesthetic.svg
 noTitle: false

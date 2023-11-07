@@ -10,7 +10,7 @@ tags:
   - Non-Acute
   - Cash
 featured: false
-manu_service: true
+manu_service: false
 weight: 4
 icon: services/wl.svg
 noTitle: false

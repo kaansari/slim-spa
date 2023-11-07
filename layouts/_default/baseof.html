@@ -97,7 +97,18 @@ out which template is being loaded
     {{ end }}">
   {{ partial "header" . }}
 
-
+  <script>
+    window.onload = function() {
+      // Get the header element
+      const header = document.querySelector('header');
+  
+      // Get the body element
+      const body = document.body;
+  
+      // Set the body margin-top to match the height of the header
+      body.style.marginTop = header.offsetHeight + 'px';
+    };
+  </script>
 
   <div class="slideshow-container">
 
