@@ -13,7 +13,7 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/chair.png
+promoimage: img/iv.png
 noTitle: false
 ---
 | Attribute                               | Detail                                                                         |

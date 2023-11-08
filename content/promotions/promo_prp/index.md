@@ -1,7 +1,7 @@
 ---
 draft: false
 date: "2023-05-11T22:35:06+05:31"
-title: "25% off PRP Breast Lift"
+title: "25% off PRP face and neck treatment"
 subheading1: "25% Discount"
 subheading2: "Expires Dec 31th"
 
@@ -14,12 +14,12 @@ tags:
   - Sales
 featured: true
 weight: 2
-promoimage: img/promo.png
+promoimage: img/chair.png
 noTitle: false
 ---
 | Attribute                               | Detail                                                                         |
 | --------------------------------------- | ------------------------------------------------------------------------------ |
-| **Offer Name**                          | PRP Breast Lift Special                                          |
+| **Offer Name**                          | PRP face and neck treatment                                         |
 | **Discount Percentage**                 | 25% off on all  PRP treatments                                                |
 | **Offer Expiration Date**               | December 31, 2023                     |
 | **Additional Internet Discount**       | Get an extra 10% off when you advance purchase online |

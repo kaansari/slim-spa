@@ -41,7 +41,6 @@ IV therapy offers several benefits, including rapid and efficient nutrient absor
 | **Engergy Boost IV**     | -Advanced: $249  |
 | **Beautify**     | -Basic: $249 -Supreme: $199 |
 | **Effectiveness**           | IV therapy can provide rapid relief of symptoms associated with common cold, hangovers, fatigue, dehydration, and can enhance overall well-being and skin health. |
- |
 | **Side Effects**           | While side effects are extremely rare, they can include local discomfort at the IV insertion site, bruising, infection, allergic reactions, and in extremely rare cases, damage to blood vessels or nerves. Patients should report any unusual symptoms or discomfort to the healthcare provider immediately. |
 | **Disclaimer**             | IV therapy is not a substitute for proper medical care or a balanced lifestyle. It's essential to consult with a healthcare professional for a comprehensive assessment of individual health needs and the potential risks and benefits of IV therapy. |
 
