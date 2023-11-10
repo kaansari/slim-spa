@@ -20,7 +20,7 @@ tags:
   - Sick 
   - Weak 
   - Energy 
-featured: false
+featured: true
 manu_service: true
 weight: 1
 icon: services/medspa.svg
@@ -30,7 +30,7 @@ noTitle: false
 IV therapy offers several benefits, including rapid and efficient nutrient absorption, ensuring vital vitamins, minerals, and fluids reach the bloodstream quickly. This can lead to improved hydration, enhanced energy levels, and quicker relief from conditions like dehydration, hangovers, and the common cold. Additionally, IV therapy can promote glowing skin and overall well-being, thanks to the infusion of essential nutrients and antioxidants. It's a convenient and effective way to address specific health concerns and can be tailored to individual needs. Always consult a healthcare professional to discuss the suitability of IV therapy for your particular health goals.
 
 ---
-| Attribute                   | Details                                                                                    |
+| FAQ                   | Answers                                                                                  |
 |-----------------------------|--------------------------------------------------------------------------------------------|
 | **Treatment Duration**      | 30-60 minutes                                                                           |
 | **Purpose**                 | Common Cold, Hangover Relief, Rejuvenation, and Beauty Enhancement                         |

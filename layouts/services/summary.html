@@ -12,7 +12,7 @@
         {{ end }}
        {{ .Title }}</a>
     </h2>
-    {{ .Summary | truncate 90 "..." }}
+    {{ .Content}}
   </div>
   CALL :<a href="tel:{{ .Site.Data.localbusiness.telephone }}">{{ .Site.Data.localbusiness.telephone }}</a>
 

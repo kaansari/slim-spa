@@ -1,7 +1,7 @@
 {
     "draft" : "true",
     "title": "Dysport $50 Reward for Free",
-    "featured": false,
+    "featured": true,
     "brand": {
     "@type": "Brand",
     "name": "Botox, Dysport, Xeomin"
@@ -56,12 +56,9 @@
         
 {{<responsive-image filename="img/botox.jpeg" alt="Facial Transformation with Botox">}}
 
-Say goodbye to pesky wrinkles and hello to a more youthful you with our top-notch Botox from **Dysport**
-
+top-notch Botox from **Dysport**
 
 Our highly trained, board-certified professionals are here to help you prevent wrinkle formation and smooth out facial lines, all in the heart of Downtown Chicago Loop.
-
-👉 Experience the Value of Professional Certified Care 👈
 
 We understand the importance of entrusting your skin to experts. That's why we offer the highest quality results by delivering injections with precision and skill. Our commitment to excellence ensures you'll receive the exceptional care you deserve.
 

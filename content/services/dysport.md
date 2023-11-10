@@ -32,7 +32,7 @@ tags:
   - neck bands
   - brow lift
   - jawline slimming 
-featured: false
+featured: true
 manu_service: true
 weight: 1
 icon: services/aesthetic.svg
@@ -40,20 +40,27 @@ thumbnail : service/botox.png
 noTitle: false
 ---
 
-We specialize in treating common areas using Botox and Dysport, such as frown lines, forehead lines, bunny lines, crow's feet, brow lift, jawline slimming, pebbly chin, turn down of the corners of the mouth, and neck bands.
+Youthful Beauty with Dysport/Botox!
+Turn back time with our top-notch services at NooN
+Aesthetics. 
+Wrinkle-Free Confidence with Dysport which is an FDA-approved injectable treatment that can effectively reduce the appearance of wrinkles, fine lines, and crow's feet. 
+Our skilled practitioners will consult with you regarding your goals and overall treatment plans to target your specific outcomes which will Erase those lines and reclaim your youth at NooN Aesthetics!
 
-| Attribute    | Details                                                                                  |
-|--------------|------------------------------------------------------------------------------------------|
-| Name         | Dysport                                                                                  |
-| Type         | Botulinum Toxin Type A                                                                  |
-| Purpose      | Cosmetic and therapeutic treatment for wrinkles and muscle spasticity                  |
-| Brand Names  | Dysport and Botox  |
-| Administration | Injected directly into the muscle                                                      |
-| FDA Approval | Approved by the U.S. Food and Drug Administration (FDA) for cosmetic use in 2009       |
-| Uses         | - Cosmetic: Reduces the appearance of wrinkles, particularly in the forehead and around the eyes - Therapeutic: Treats muscle spasticity, cervical dystonia, and various medical conditions |
-| Duration     | Effects typically last 3 to 4 months for cosmetic use, longer for therapeutic applications|
-| Onset of Action | Takes a few days to start working for cosmetic purposes                                |
-| Side Effects | Common side effects include pain or discomfort at the injection site, headache, and temporary muscle weakness. Rare but serious side effects can include difficulty swallowing, speaking, or breathing |
-| Cost         | Cost varies by location and the number of units needed; generally priced per unit      |
-| Precautions  | - Not suitable for individuals with certain medical conditions or allergies - Should be administered by a trained medical professional - Potential for spread of botulinum toxin to distant sites, causing muscle weakness     |
 
+
+| **FAQ**                                     | **Answer**                                                                                                                                                                    |
+|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **What is Dysport and Botox?**                    | Dysport and Botox are injectable neurotoxins containing botulinum toxin type A. They temporarily paralyze muscle activity, reducing wrinkles and fine lines for a smoother appearance. |
+| **How do they work?**                             | They block nerve signals in the muscles, preventing them from contracting. This relaxation of muscles smoothens wrinkles caused by repeated facial expressions.                        |
+| **What areas can be treated?**                    | Common treatment areas include forehead lines, crow's feet, and frown lines. Both can also be used for eyebrow lifts and jawline contouring.                                    |
+| **Are there any differences between Dysport and Botox?** | While both are similar, Dysport may have a faster onset, and the units of measurement differ. The choice often depends on individual preferences and responses.             |
+| **How long do the effects last?**                 | Results typically last 3-4 months, varying among individuals. Regular maintenance treatments are required to sustain the benefits.                                               |
+| **Is the treatment painful?**                     | Discomfort is minimal. A fine needle is used, and some formulations contain a local anesthetic. Cold packs or numbing cream may be applied to enhance comfort.                   |
+| **Are there any side effects?**                   | Possible side effects include temporary bruising, swelling, or redness at the injection site. Rarely, eyelid drooping or asymmetry may occur, but these are usually temporary.    |
+| **How soon do I see results?**                    | Initial effects can be noticeable within a few days, with full results appearing within 1-2 weeks. Patience is key for optimal outcomes.                                          |
+| **Can Dysport/Botox be combined with other treatments?** | Yes, they can be combined with dermal fillers or other cosmetic procedures for a more comprehensive facial rejuvenation approach.                                                  |
+| **Who is a good candidate for these treatments?** | Generally, individuals with dynamic wrinkles and good overall health make good candidates. Pregnant or breastfeeding women should avoid these treatments.                        |
+| **How long is the procedure?**                    | The procedure usually takes about 15-30 minutes, making it a convenient option for those with busy schedules.                                                                  |
+| **How much do Dysport/Botox treatments cost?**     | Costs vary depending on the provider, location, and the amount of product used. It's typically priced per unit, and the number of units needed varies for each person.          |
+| **Is there downtime after the treatment?**        | There's minimal to no downtime. Patients can usually resume regular activities immediately, but it's advised to avoid strenuous exercise on the day of treatment.           |
+| **Are the results natural-looking?**              | When administered by a skilled practitioner, the results are generally natural-looking, preserving facial expressions while reducing the appearance of wrinkles.               |
