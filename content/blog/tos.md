@@ -12,4 +12,4 @@ noTitle: true
 ---
 
 ## Cancelation Policy
-test cancelation policy
+Please call to request a cancelation.  Any no-show without calling or prior notification may incur a small cancelation charge.

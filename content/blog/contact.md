@@ -6,6 +6,7 @@ categories:
   - Notices
 tags:
   - Documents
+  - Contact
 noTitle: true
 ---
 We are located at
