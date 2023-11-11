@@ -35,7 +35,7 @@
   {{ partial "services/common/schema.html" . }} 
 {{ else }}
 <script type="application/ld+json">
-  {{ $b_schema}}
+  {{ .Site.Data.doc }}
 </script>
 {{ end }}
 

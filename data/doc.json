@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "@id": "https://www.noon-spa.com/team",
+    "url": "https://www.noon-spa.com",
+    "brand": {
+        "name": [
+            "NooN - IV, Botox, PRP & Aesthetics"
+        ]
+    },
+    "name": [
+        "Belaal Sheikh, MD"
+    ],
+    "image": "https://noon-spa.com/hero/male.png",
+    "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://squareup.com/appointments/book/tvu57qe64ksjce/LH6MKHHS71HNS/start",
+            "inLanguage": "en-US",
+            "actionPlatform": [
+                "https://schema.org\/DesktopWebPlatform",
+                "https://schema.org\/IOSPlatform",
+                "https://schema.org\/AndroidPlatform"
+            ]
+        },
+        "result": {
+            "@type": "Reservation",
+            "name": "Book Online"
+        }
+    },
+    "telephone": "224-391-2610",
+    "openingHours": [
+        "MON 9:00 AM - 9:00 PM",
+        "TUE 9:00 AM - 9:00 PM",
+        "WED 9:00 AM - 9:00 PM",
+        "THU 9:00 AM - 9:00 PM",
+        "FRI 9:00 AM - 9:00 PM",
+        "SAT 9:00 AM - 9:00 PM",
+        "SUN 9:00 AM - 9:00 PM"
+    ],
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "224-391-2610",
+            "contactType": "reservations"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "224-391-2610",
+            "contactType": "customer service"
+        }
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "231 S State St",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postalCode": "60604",
+        "addressCountry": "USA"
+    },
+    "priceRange": "Free Confidential Consultation"
+}

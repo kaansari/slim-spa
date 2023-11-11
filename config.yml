@@ -4,7 +4,7 @@ baseURL: 'https://noon-spa.com/'
 # Custom parameters
 params:
   description: 'NooN Spa and Weight Loss management clinic in the Chicago Loop'
-
+  google_analytics_id: 'G-CNDPZ1R385'
 
 
 # Markdown Settings
@@ -42,7 +42,7 @@ caches:
 languageCode: 'en-us'
 
 # Site title
-title: 'NooN - Botox, Dysport, PRP & Aesthetics'
+title: 'NooN - Botox, Dysport, PRP & Aesthetics in Chicago Loop'
 copyright: 'NooN Spa'
 
 # Build timeout, may need to increase if using a lot of image processing
@@ -73,7 +73,6 @@ disableKinds: ['hugoGeneratorInject', '404']
 # Content organization
 taxonomies:
   category: categories
-  tag: tags
 
 # Files to ignore while rendering
 ignoreFiles: []

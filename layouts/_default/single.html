@@ -21,19 +21,5 @@
     <button>Make Appointment</button>
   </a>
   </main>
-
-  <nav class="row">
-    <hr>
-    <h1>Categories</h1>
-    <ul >
-
-        </li>
-        {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title | title }}</a>
-        </li>
-        {{ end }}
-    </ul>
-</nav>
 </article>
 {{ end }}
